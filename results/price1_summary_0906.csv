@@ -1,0 +1,7 @@
+,Revenue,Power cost,Other cost,Profit,Demand,Average price
+Dynamic price,44759,9426.5,24000,11332,8314.4,5.9875
+Optimal flat price,35759,7924.6,24000,3834,5182.4,6.9
+Low flat price,36361,9605.8,24000,2754.8,6162.8,5.9
+High flat price,32820,6503.7,24000,2316.1,4154.4,7.9
+Binary flat price,45491,13716,24000,7774.6,7462.4,5.9875
+Maximize utilization,31179,15840,24000,-8661,9098.8,3.475

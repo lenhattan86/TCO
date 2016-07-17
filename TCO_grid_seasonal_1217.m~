@@ -1,0 +1,170 @@
+has_quadprog = exist( 'quadprog' );
+has_quadprog = has_quadprog == 2 | has_quadprog == 3;
+has_linprog  = exist( 'linprog' );
+has_linprog  = has_linprog == 2 | has_linprog == 3;
+s_quiet = cvx_quiet(true);
+s_pause = cvx_pause(false);
+cvx_solver sedumi;
+cvx_precision low;
+cvx_clear;
+clc;
+clear;
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                          INPUT                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% general parameters
+TS = 24; % number of slots per day
+ND = 12; % number of days
+T = TS*ND; % planning period length, in hours
+IP = 0.04; % idle power consumption of a server, in kW
+PP = 0.2; % peak power consumption of a server, in kW
+CO2_grid = 0.5; % kg CO2/kWh of grid power consumption
+DC_power = 300; % Data center power capacity, in kW
+OP = 5/6; % over-provisioning ratio of IT and power
+IT = DC_power*OP;% Data center IT capacity, in kW
+con = 0.9; % maximum utilization after consolidation
+plot_PV = 0; % plot PV traces
+plot_demand = 0; % plot power demand
+
+% interactive workloads
+IN = 1; % number of interactive workloads
+IL = {'traces/SAPnew/sapTrace2.tab'};
+a = zeros(IN,T);
+au = 0.4; % average utilization of interactive workloads
+IPU = 0.7; % interactive workload peak utilization
+IM = IT*au*IPU; % peak of interactive workload consumption, in servers
+PMR = 2.5; % peak to mean ratio, should be smaller than current PMR
+for i = 1:1:IN
+    a(i,:) = interactive_process(char(IL(i)), T, 12, 4, PMR, IM(i));
+end
+
+
+% batch job
+BN = 1; % average number of batch job arrivals per timeslot
+BM = 0.25; % batch job ratio, compared with interactive workload
+[A,BS,S,E] = batch_job_generator(T,BN*T,'Uniform',23.99,23.99,'Uniform',1,1,BM/(1-BM)*sum(mean(a,2)./au)/con); % generate batch jobs based on statistical properties
+bu = 1; % average utilization of batch job when running alone.
+
+% uncontrolled renewable generation, e.g., PV, wind
+RN = 1; % number of renewable generation
+R_raw = zeros(12,24*31);
+PVN = zeros(12,1);
+CF = zeros(12,1);
+RCF = load('traces/PV_CF.csv');
+for i = 1:1:12
+    tmp = load(strcat('traces/Houston/',int2str(i),'.csv'));
+    PVN(i) = size(tmp,1)/12;
+    for t = 1:1:PVN(i)
+        R_raw(i,t) = max(0,mean(tmp((t-1)*12+1:(t-1)*12+12,6)));
+    end
+end
+for i = 1:1:12
+    CF(i) = mean(R_raw(i,:))/max(max(R_raw));
+end
+for i = 1:1:12
+    R((i-1)*24+1:(i-1)*24+24) = sum(reshape(R_raw(i,1:PVN(i)),24,PVN(i)/24),2);
+end
+R = R/max(R);
+RR = [0, 500]; % renewable capacity range, in kW
+RC = [2600/25, 0.005+0]; % [install cost ($/kW/year), maintenance cost + operational cost ($/kWh)]
+RE = 32; % emmision, in gram CO2 eq
+
+% plot PV traces
+if plot_PV
+    figure;
+    plot(1/TS:1/TS:ND, R(1,:)*150,'r-','LineWidth',2)
+    ylabel('generation (kW)')
+    ylim([0,150])
+    set(gca,'XTick',[0.5:1:11.5], 'FontSize', 8);
+    set(gca,'xticklabel',{'Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'});
+    set (gcf, 'PaperUnits', 'inches', 'PaperPosition', [0.1 0 6.0 2.0]);
+    print ('-depsc', 'results/PV_seasonal.eps');
+    eps2pdf('results/PV_seasonal.eps','/usr/local/bin/gs');
+end
+
+% controlled renewable generation, e.g., gas engine
+CRN = 1; % number of controlled renewable generation
+SR = 1/6; % storage requirement for 1kW, in kWh
+CRR = [250,250]; % controled renewable capacity range, in kW
+NG_price = load('traces/NG_price.csv');
+%CRC = [1000/20+SR*200/4, 0.005+reshape(ones(TS,1) * NG_price',1,T)]; % [install cost ($/kW/year), maintenance cost + operational cost ($/kWh)]
+CRC = [1000/20+SR*200/4, 0.005+0.095*ones(1,T)];
+CRE = 443; % emmision, in gram CO2 eq
+
+% cooling efficiency
+PUE = 1.2*ones(1,T);
+
+% price setting [power, cooling, PV, IT]
+P = [600, 800, 3200/20, 1000];
+%GP = reshape(ones(TS,1)*load('traces\electricity_price.csv')',1,T); % grid electricity price
+GP = 10*ones(1,T); % grid power only as backup
+BP = 0.04*ones(1,T); % sell back price
+RP = 0.14*ones(1,T); % renewable electricity price
+
+% energy storage loss
+Loss = [0.99, 1];
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                          SOLVER                                %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+plot_option = 1;
+discount_factor = 0;
+max_payback = 20;
+payback_plot = 0;
+
+% grid only
+[cost_grid,capacity_grid,emission_grid] = houston_grid(0,0,0,0,T,IP,PP,OP,IT,CO2_grid,a,au,con,BS,A,S,E,bu,PUE,R(1,:),[0,0],RC,RE,SR,[0,0],CRC,CRE,P,GP,RP,BP,plot_option,'results/nz-grid');
+yearly_cost_grid = sum(cost_grid([2,4,5]));
+total_cost_grid = yearly_cost_grid*max_payback
+
+% net-zero, supply only
+[cost_supply,capacity_supply,emission_supply] = houston_grid(0,1,0,0,T,IP,PP,OP,IT,CO2_grid,a,au,con,BS,A,S,E,bu,PUE,R(1,:),RR,RC,RE,SR,CRR,CRC,CRE,P,GP,RP,BP,plot_option,'results/nz-supply');
+yearly_cost_supply = sum(cost_supply([2,4,5]));
+infra_cost_supply = sum(cost_supply([1,3]))*max_payback;
+total_cost_supply = yearly_cost_supply*max_payback + infra_cost_supply
+cost_reduction_supply = 1- total_cost_supply/total_cost_supply
+[payback_supply,npv_supply] = payback_cal(infra_cost_supply,(yearly_cost_grid-yearly_cost_supply)*ones(1,max_payback),discount_factor,max_payback,payback_plot)
+
+% net-zero, demand only
+[cost_demand,capacity_demand,emission_demand] = houston_grid(1,1,1,1,T,IP,PP,OP,IT,CO2_grid,a,au,con,BS,A,S,E,bu,PUE,R(1,:),[250,250],RC,RE,SR,CRR,[C,C],CRE,P,GP,RP,BP,plot_option,'results/nz-supply');
+yearly_cost_demand = sum(cost_demand([2,4,5]));
+infra_cost_demand = sum(cost_demand([1,3]))*max_payback;
+total_cost_demand = yearly_cost_demand*max_payback + infra_cost_demand
+cost_reduction_demand = 1- total_cost_demand/total_cost_demand
+[payback_demand,npv_demand] = payback_cal(infra_cost_demand,(yearly_cost_grid-yearly_cost_demand)*ones(1,max_payback),discount_factor,max_payback,payback_plot)
+
+% net-zero, integrated
+[cost_int,capacity_int,emission_int] = houston_grid(1,1,1,1,T,IP,PP,OP,IT,CO2_grid,a,au,con,BS,A,S,E,bu,PUE,R(1,:),RR,RC,RE,SR,CRR,CRC,CRE,P,GP,RP,BP,plot_option,'results/nz-supply');
+yearly_cost_int = sum(cost_int([2,4,5]));
+infra_cost_int = sum(cost_int([1,3]))*max_payback;
+total_cost_int = yearly_cost_int*max_payback + infra_cost_int
+cost_reduction_int = 1- total_cost_int/total_cost_int
+[payback_int,npv_int] = payback_cal(infra_cost_int,(yearly_cost_grid-yearly_cost_int)*ones(1,max_payback),discount_factor,max_payback,payback_plot)
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                          OUTPUT                                %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+figure;
+bar([cost_grid;cost_nz;cost_real;cost_int],0.2,'stacked');
+ylabel('annual expenditure ($)');
+legend('PV infrastructure cost','PV O&M cost','GE infrastructure cost','GE O&M cost','Electricity bill');
+ylim([0,sum(capacity_real)*1.3]);
+set(gca,'xticklabel',{'Grid only','Supply opt','Supply given','Our solution'});
+set (gcf, 'PaperUnits', 'inches', 'PaperPosition', [0.1 0 5.0 2.8]);
+print ('-depsc', 'results/cost_comp.eps');
+eps2pdf('results/cost_comp.eps','/usr/local/bin/gs');
+
+figure;
+bar([capacity_grid;capacity_nz;capacity_real;capacity_int]);
+ylabel('capacity (kW)');
+legend('PV','GE');
+ylim([0,max(capacity_real)*1.3]);
+set(gca,'xticklabel',{'Grid only','Supply opt','Supply given','Our solution'});
+set (gcf, 'PaperUnits', 'inches', 'PaperPosition', [0.1 0 5.0 2.8]);
+print ('-depsc', 'results/capacity_comp.eps');
+eps2pdf('results/capacity_comp.eps','/usr/local/bin/gs');
+%}
+save('results/houston_payback_seasonal_1217.mat');
