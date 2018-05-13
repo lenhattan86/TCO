@@ -1,0 +1,48 @@
+1. Carbon-aware energy capacity planning for datacenters
+Planning 
+- Only Renewable & energy storage capacity.
+Objective: total cost.
+
+
+2. How much power oversubscription is safe and allowed in data centers
+
+deploying the maximum number of servers possible within existing power supply capabilities. Therefore, a key problem is determining how many servers can be safely accommodated.
+
+3. Capping the Brown Energy Consumption of Internet Services at Low Cost
+
+Our policy can be used to abide by caps on brown energy consumption.
+Governments may impose Kyoto-style cap-and-trade on large brown energy consumers to curb carbon emissions.
+=> reduce brown energy cost.
+
+- Online resource management for data center with energy capping
+
+
+4. Parasol and GreenSwitch: managing datacenters powered by renewable energy
+we present Parasol, a prototype green datacenter that we have built as a research platform => to discuss the trade-offs in building green data centers.
+
+5. topics: Workload planning in temporal domains and spacial domains.
+
+
+
+6. Capacity planning for data center to support green computing
+=> number of servers: using stochastic programming under workload demand uncertainty (multiple stages).
+
+
+7. Energy storage in datacenters: what, where, and how much?
+
+8. Towards the design and operation of net-zero energy data centers
+One key concern is that the amount of renewable energy necessary to satisfy a typical data center's power consumption can lead to prohibitively high capital costs for the power generation and delivery infrastructure, particularly if on-site renewables are used. In this paper, we introduce a method to operate a data center with renewable energy that minimizes dependence on grid power while minimizing capital cost. 
+
+8. Underprovisioning backup power infrastructure for datacenters
+
+the backup infrastructure - Diesel Generators (DGs) and UPS units. We present a framework to quantify the cost of backup capacity that is provisioned, and implement techniques leveraging existing software and hardware mechanisms to provide as seamless an operation as possible for an application within the provisioned backup capacity during a power outage.
+
+=============================================
+
+Intro - references.
+
+The cost of a cloud: research problems in data center networks - sigcomm 2008 Microsoft
+
+Cost Model for Planning, Development and Operation of a Data Center - HP
+
+

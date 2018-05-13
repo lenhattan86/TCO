@@ -1,0 +1,48 @@
+\section{Introduction}
+
+\desc{TCO}
+
+The total cost of ownership (TCO) and greenhouse gas (GHG) emissions of data centers are exponentially increasing \cite{Rana2010DataCenterInvestment} due to the explosive demand for using Internet services. Giant cloud providers like Google and Facebook spend billions of dollars every quarter on their data centers \cite{sverdlik2015BillionsInDataCenter}. On the other hand, data centers are under pressure to reduce their emissions. Conventional data centers are mainly powered by the electricity grid that heavily depends on fossil fuel. In fact, a data center can release emissions equivalent of hundred thousands of cars \cite{facts2005greenhouse,CarbonFootprints2009}.
+
+\desc{CapEx \& OpEx explanation}
+
+The TCO of a data center is mainly the capital expense (CapEx) and the operational expense (OpEx) \cite{barroso2013datacenter}. CapEx of a data center is the costs that must be invested up front and then depreciated over a certain time frame, e.g., the construction cost of a data center and the purchase of servers. OpEx refers to the costs of operating a data center, including electricity costs, software and hardware maintenance, and repairs, salaries for human resources, etc. 
+
+The CapEx of data centers is actually an interesting topic. For instance, renewable energy is normally considered to be free. However, the cost of deploying a renewable power plant is far more expensive than building a traditional power plant \cite{abdmouleh2015review}. Fortunately, the price of renewable energy equipment is going down in the long-run with improved technologies. On the other hand, renewable energy sources are not dispatchable because their generations heavily depend on weather and geographical conditions. Such issues are critical in efficient use of renewable energy sources. 
+
+The OpEx of a data center is becoming more dynamic than ever as a result of increasing and abundant work focusing on power demand management. For instance, the workload in data centers can be shaped to achieve a given objective, such as minimizing electricity cost \cite{urgaonkar2011optimal,pakbaznia2009minimizing}. Furthermore, the workload demands can even be balanced among the geographically distributed data centers \cite{liu2011greening,qureshi2009cutting}.
+
+\desc{CapEx and OpEx interdependent}
+
+The relationship between CapEx and OpEx in a data center is bi-directional. CapEx and Opex are the costs associated with the capacity planning and operational management, respectively. Capacity planning is the process of determining the infrastructure for a data center. In order to have efficient capacity planning, it is necessary to consider how the data center would operate in the long-run. Meanwhile, capacity planning may have significant impacts on OpEx because the cost of operational management varies under different settings. Traditionally, a data center is built to serve the peak workload demands \cite{ren2012carbon}. However, it may lead to over-provisioning and cause a huge waste of capital and maintenance costs since the workload can actually be shaped to reduce the peak. On the other hand, under-provisioning would not meet the quality of service (QoS) requirements, e.g., latency, which severely debilitates the business. 
+
+\desc{Joint optimization framework}
+
+In this paper, we propose an optimization framework for joint capacity planning and operational management in Section \ref{sec:OptimizationFramework}. The optimization framework is to minimize both CapEx and OpEx. Meaning, the framework can deal with the inter-dependency of capacity planning and operational management to outperform the traditional methods. To evaluate the proposed framework, we carry out numerical simulations for two scenarios: sustainable data centers and data center demand response.
+
+\desc{Sustainable data centers}
+
+Sustainable data centers (SDC) \cite{weihl2011sustainable} are designed to reduce costs and GHG emissions. For example, HP designed ``Net-zero Energy Data Centers'', which utilize the various renewable energy sources to reduce energy cost as well as emissions \cite{arlitt2012towards}. Furthermore, sustainable data centers may integrate some of advanced power management techniques, such as server consolidation \cite{lin2013dynamic,zhang2012dynamic,lin2011online}, network consolidation \cite{zhang2010greente,andrews2012routing,sharmashrink}, colocation of workloads \cite{aksanli2012utilizing}, cooling power optimization \cite{liu2012renewable,pakbaznia2009minimizing}, batch job scheduling \cite{mukherjee2009spatio,garg2011sla}, and using energy storages \cite{urgaonkar2011optimal,liu2012renewable,liu2013data}. How to optimize the design of sustainable data centers is still challenging as they are far more complicated than that of traditional data centers.
+
+\desc{DCDR}
+
+The participations of data centers in demand response (DR) programs can potentially contribute to the electricity grid \cite{wierman2014opportunities,liu2014pricing}. In fact, data centers are large loads and can be considered as giant virtual batteries to help improve the reliability of electricity grid \cite{wierman2014opportunities}. Despite such great potential, lots of important questions still remain open. How do the participations in DR programs affect a data center in terms of cost, capacity planning, and power management? How well does a data center respond to the DR signals? What are the subsequences of the changes, e.g., in GHG emissions? We address these questions in Section \ref{sec:DR_evaluation}.
+
+\textbf{Our contributions are three-fold.}
+
+\emph{First, we develop an optimization framework for joint capacity planning and operational management} in Section \ref{sec:OptimizationFramework}. The optimization framework is based on the model of sustainable data centers and general enough to be applied to traditional data centers. The model includes multiple power demand and supply components, i.e., IT workload demand, cooling power, renewable energy sources, non-renewable energy sources, and electricity grid. The joint optimization framework provides an optimal capacity planning decision to construct, expand and operate the data center annually. In addition, the model can estimate the emissions of a data center.
+As the framework requires predictions for capacity planning in the long-run, prediction errors are incorporated. Moreover, we extend the optimization framework to include Net-Zero Energy Data Centers and data center demand response (DCDR) in Section \ref{sec:netzero_evaluation} and Section \ref{sec:DR_evaluation}, respectively. Unlike conventional data centers, Net-zero Energy Data Centers (NEDC) can be run by stand-alone micro-grids mainly powered by renewable resources \cite{arlitt2012towards}.
+
+\emph{Second, we evaluate the proposed framework on sustainable data centers in Section~\ref{sec:sustainableDataCenters}.} The evaluation is based on the real design of a data center, EcoPOD designed by HP \cite{hpEcoPODs}. The data center can provision power from photovoltaic (PV) generation, gas engine (GE) generation, and electricity grid.
+
+\begin{itemize}
+	\item \emph{We highlight the benefits of using our proposed framework} in Section \ref{sec:Comparison}. We compare the proposed framework with three baseline methods. The comparisons demonstrate that the proposed framework achieves up to 50\% of cost savings and 75\% of emission reductions. Additionally, the simulation results in annual capacity planning show that the proposed framework tends to increase the use of renewable energy and decrease emissions over time.
+	
+	
+	\item \emph{We study the impacts of prediction errors on our proposed framework} in Section \ref{sec:ImpactOfPredictionErrors}. Under large prediction errors, the proposed framework still achieves significant cost savings and emission reductions. 
+	
+	
+	\item \emph{We provide sensitivity analysis on the proposed framework for a NEDC} in Section \ref{sec:netzero_evaluation}. As NEDC are mainly powered by the local energy resources, the framework is extended to include a net-zero energy constraint. We study various factors, i.e., electricity price, gas price, shape of interactive workload, and ratio of flexible workload. This analysis provides lots of interesting insights. For instance, there are trade-offs between PV and GE. Additionally, while the high ratio of flexible workload has very positive impacts on using more PV, the shapes of interactive workload affect little on the capacity planning and operational management of NEDC. 
+\end{itemize}
+
+\emph{Last but not least, we evaluate data center's capacity planning and operational management when participating in demand response programs}. Extensive numerical simulations in Section \ref{sec:DR_evaluation} show that this results in different capacity planning decisions, and some of them reduce emissions up to 60\%. Moreover, we demonstrate that the proposed framework allows data centers to adapt to each DR program very well.

@@ -1,0 +1,76 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: manuscript.aux
+The style file: abbrv.bst
+Database file #1: bib/DCDR.bib
+I was expecting a `,' or a `}'---line 22 of file bib/DCDR.bib
+ :   
+ :   booktitle={Proc. of IGCC},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 85 of file bib/DCDR.bib
+ : 
+ : %, http://www.nist.gov/public\_affairs/releases/\\upload/smartgrid\_interoperability\_final.pdf
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `)'---line 193 of file bib/DCDR.bib
+ :  
+ :  URL="http://http://www.cs.caltech.edu/~zliu2/SDClong.pdf",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 556 of file bib/DCDR.bib
+ : 
+ : @inproceedings{verma2009server,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 605 of file bib/DCDR.bib
+ :  
+ :  %, http://www.nist.gov/public\_affairs/releases/\\upload/smartgrid\_interoperability\_final.pdf
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 738 of file bib/DCDR.bib
+ : @inproceedings{ren2012carbon
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 767 of file bib/DCDR.bib
+ : @inproceedings{zhang2012dynamic
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 785 of file bib/DCDR.bib
+ : @article{lin2013dynamic
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 855 of file bib/DCDR.bib
+ : @misc{eiaElectricityPrices
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 919 of file bib/DCDR.bib
+ : @inproceedings{arlitt2012towards
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 958 of file bib/DCDR.bib
+ : @inproceedings{urgaonkar2011optimal
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 967 of file bib/DCDR.bib
+ : @inproceedings{qureshi2009cutting
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 987 of file bib/DCDR.bib
+ : @article{liu2013data
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1144 of file bib/DCDR.bib
+ : @inproceedings{ren2012carbon
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1170 of file bib/DCDR.bib
+ : @inproceedings{pakbaznia2009minimizing
+ :                                       ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in CarbonFootprints2009
+Warning--to sort, need author or key in hpEcoPODs
+Warning--to sort, need author or key in gasPrice
+Warning--to sort, need author or key in electricityRateTexas
+Warning--empty author in hpEcoPODs
+Warning--can't use both volume and number fields in liu2012renewable
+Warning--empty year in sharmashrink
+(There were 15 error messages)

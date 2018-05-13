@@ -1,0 +1,219 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: sample1.aux
+White space in argument---line 4 of file sample1.aux
+ : \citation{facts2005greenhouse,
+ :                                CarbonFootprints2009}
+I'm skipping whatever remains of this command
+White space in argument---line 8 of file sample1.aux
+ : \citation{pakbaznia2009minimizing,
+ :                                    urgaonkar2011optimal}
+I'm skipping whatever remains of this command
+White space in argument---line 9 of file sample1.aux
+ : \citation{qureshi2009cutting,
+ :                               liu2011greening}
+I'm skipping whatever remains of this command
+White space in argument---line 13 of file sample1.aux
+ : \citation{zhang2012dynamic,
+ :                             lin2011online, lin2013dynamic}
+I'm skipping whatever remains of this command
+White space in argument---line 14 of file sample1.aux
+ : \citation{andrews2012routing,
+ :                               zhang2010greente, sharmashrink}
+I'm skipping whatever remains of this command
+White space in argument---line 16 of file sample1.aux
+ : \citation{liu2012renewable,
+ :                             pakbaznia2009minimizing}
+I'm skipping whatever remains of this command
+White space in argument---line 18 of file sample1.aux
+ : \citation{urgaonkar2011optimal,
+ :                                 liu2012renewable, liu2013data}
+I'm skipping whatever remains of this command
+White space in argument---line 19 of file sample1.aux
+ : \citation{wierman2014opportunities,
+ :                                     liu2014pricing}
+I'm skipping whatever remains of this command
+White space in argument---line 29 of file sample1.aux
+ : \citation{zhang2012dynamic,
+ :                             lin2011online, lin2013dynamic}
+I'm skipping whatever remains of this command
+White space in argument---line 30 of file sample1.aux
+ : \citation{andrews2012routing,
+ :                               zhang2010greente, sharmashrink}
+I'm skipping whatever remains of this command
+White space in argument---line 32 of file sample1.aux
+ : \citation{liu2012renewable,
+ :                             pakbaznia2009minimizing}
+I'm skipping whatever remains of this command
+White space in argument---line 35 of file sample1.aux
+ : \citation{urgaonkar2011optimal,
+ :                                 liu2012renewable, liu2013data}
+I'm skipping whatever remains of this command
+White space in argument---line 67 of file sample1.aux
+ : \citation{eiaElectricityPrices,
+ :                                 gasPrice, StevenGlobalTraffic}
+I'm skipping whatever remains of this command
+The style file: ACM-Reference-Format-Journals.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: bib/DCDR.bib
+I was expecting a `,' or a `}'---line 22 of file bib/DCDR.bib
+ :   
+ :   booktitle={Proc. of IGCC},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 85 of file bib/DCDR.bib
+ : 
+ : %, http://www.nist.gov/public\_affairs/releases/\\upload/smartgrid\_interoperability\_final.pdf
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `)'---line 193 of file bib/DCDR.bib
+ :  
+ :  URL="http://http://www.cs.caltech.edu/~zliu2/SDClong.pdf",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 556 of file bib/DCDR.bib
+ : 
+ : @inproceedings{verma2009server,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 605 of file bib/DCDR.bib
+ :  
+ :  %, http://www.nist.gov/public\_affairs/releases/\\upload/smartgrid\_interoperability\_final.pdf
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 738 of file bib/DCDR.bib
+ : @inproceedings{ren2012carbon
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 767 of file bib/DCDR.bib
+ : @inproceedings{zhang2012dynamic
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 855 of file bib/DCDR.bib
+ : @misc{eiaElectricityPrices
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 919 of file bib/DCDR.bib
+ : @inproceedings{arlitt2012towards
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 958 of file bib/DCDR.bib
+ : @inproceedings{urgaonkar2011optimal
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 967 of file bib/DCDR.bib
+ : @inproceedings{qureshi2009cutting
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 987 of file bib/DCDR.bib
+ : @article{liu2013data
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1144 of file bib/DCDR.bib
+ : @inproceedings{ren2012carbon
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1170 of file bib/DCDR.bib
+ : @inproceedings{pakbaznia2009minimizing
+ :                                       ,
+I'm skipping whatever remains of this entry
+Warning--no key, author in hpEcoPODs
+Warning--no author, editor, organization, or key in hpEcoPODs
+Warning--to sort, need author or key in hpEcoPODs
+Warning--no key, author in gasPrice
+Warning--no author, editor, organization, or key in gasPrice
+Warning--to sort, need author or key in gasPrice
+Warning--no key, author in electricityRateTexas
+Warning--no author, editor, organization, or key in electricityRateTexas
+Warning--to sort, need author or key in electricityRateTexas
+Warning--no key, author in electricityRateTexas
+Warning--no key, author in electricityRateTexas
+Warning--no key, author in gasPrice
+Warning--no key, author in gasPrice
+Warning--no key, author in hpEcoPODs
+Warning--no key, author in hpEcoPODs
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--no key, author in hpEcoPODs
+Warning--no author, editor, organization, or key in hpEcoPODs
+Warning--empty author in hpEcoPODs
+Warning--no key, author in electricityRateTexas
+Warning--no author, editor, organization, or key in electricityRateTexas
+Warning--no key, author in gasPrice
+Warning--no author, editor, organization, or key in gasPrice
+Warning--empty publisher in arlitt2012towards
+Warning--empty address in arlitt2012towards
+Warning--empty year in solarCost
+Warning--no number and no volume in facts2005greenhouse
+Warning--page numbers missing in both pages and numpages fields in facts2005greenhouse
+Warning--empty address in garg2011sla
+Warning--empty publisher in lin2011dynamic
+Warning--empty address in lin2011dynamic
+Warning--page numbers missing in both pages and numpages fields in lin2011dynamic
+Warning--can't use both volume and number fields in liu2012renewable
+Warning--empty publisher in liu2012renewable
+Warning--empty address in liu2012renewable
+Warning--empty publisher in liu2011greening
+Warning--empty address in liu2011greening
+Warning--empty publisher in pakbaznia2009minimizing
+Warning--empty address in pakbaznia2009minimizing
+Warning--empty publisher in qureshi2009cutting
+Warning--empty address in qureshi2009cutting
+Warning--page numbers missing in both pages and numpages fields in qureshi2009cutting
+Warning--empty publisher in ren2012carbon
+Warning--empty address in ren2012carbon
+Warning--no number and no volume in revelle2009cap
+Warning--page numbers missing in both pages and numpages fields in revelle2009cap
+Warning--empty publisher in urgaonkar2005analytical
+Warning--empty address in urgaonkar2005analytical
+Warning--page numbers missing in both pages and numpages fields in urgaonkar2005analytical
+Warning--empty publisher in urgaonkar2011optimal
+Warning--empty address in urgaonkar2011optimal
+Warning--page numbers missing in both pages and numpages fields in urgaonkar2011optimal
+Warning--empty publisher in wierman2014opportunities
+Warning--empty address in wierman2014opportunities
+Warning--empty publisher in zhang2012dynamic
+Warning--empty address in zhang2012dynamic
+Warning--page numbers missing in both pages and numpages fields in zhang2012dynamic
+You've used 33 entries,
+            5290 wiz_defined-function locations,
+            1402 strings with 20798 characters,
+and the built_in function-call counts, 35951 in all, are:
+= -- 4446
+> -- 1402
+< -- 1
++ -- 428
+- -- 814
+* -- 2511
+:= -- 3923
+add.period$ -- 159
+call.type$ -- 33
+change.case$ -- 236
+chr.to.int$ -- 33
+cite$ -- 101
+duplicate$ -- 2587
+empty$ -- 1862
+format.name$ -- 544
+if$ -- 8224
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 100
+newline$ -- 299
+num.names$ -- 240
+pop$ -- 1138
+preamble$ -- 1
+purify$ -- 400
+quote$ -- 0
+skip$ -- 693
+stack$ -- 0
+substring$ -- 3506
+swap$ -- 228
+text.length$ -- 707
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 462
+warning$ -- 56
+while$ -- 216
+width$ -- 0
+write$ -- 600
+(There were 27 error messages)

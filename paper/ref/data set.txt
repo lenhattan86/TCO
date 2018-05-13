@@ -1,0 +1,11 @@
+1. Implement
+- Time of Use Pricing (included)
+- Inclining Block Rates
+- Coincident Peak Pricing
+
+- Day-ahead Pricing (not necessary)
+- real-time pricing (not necessary)
+- Whole-sale market (how?)
+- ancillary services (how?)
+2. Dataset about DR programs
+

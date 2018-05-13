@@ -1,0 +1,13 @@
+book tickets
+1. Registration
+2. airlines (booked)
+3. book bus tickets
+Airport to Hotels: buses (Airport -> 40 Square One -> 25 Wilfrid Laurier University)
+Hotels to Airport: buses (University of Waterloo -> 25 Square One--> 40 Airport)
+4. hotels. (booked)
+5. Visa
+- Application
+- Biometrics
+ASC (Application Support Center) 11 am -> 2pm
+30 Barretts Avenue
+Holtsville, NY 11742

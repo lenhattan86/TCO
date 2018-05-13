@@ -1,0 +1,30 @@
+\section{Empirical evaluation for sustainable data centers}
+\label{sec:sustainableDataCenters}
+
+\subsection{Experimental setup}
+\label{sec:setup}
+
+We carry out evaluation based on the settings of a HP EcoPOD data center \cite{hpEcoPODs}.
+
+\textbf{Demand side}. The power demand capacity of the data center is 1MW. 
+The power demand is from both IT equipment serving both interactive and batch workloads, and from cooling facilities removing the heat. The peak power usage is 720kW. The Peak-to-Mean Ratio (PMR) of interactive workload is set at 3. Flexible workloads (batch jobs) are 50\% of the total IT workload demand with flexibility 24 hours. The utilization of interactive workloads in a server is 40\%, and the maximum utilization for all workloads is 90\%. PUE is set at 1.2. We study the PMR and flexible workload ratios in terms of capacities and costs in Figure \ref{f.PMR} and \ref{f.batch_ratio}.
+
+\textbf{Supply side}. We consider a power micro-grid to supply the data center. The power micro-grid consists of on-site photovoltaic (PV) array, general electric (GE) natural gas engines, and the electricity grid (grid). 
+
+\emph{PV array:} The amortized infrastructure cost of PV array after rebate is \$2.15/W \cite{solarCost}. The maximum size of PV array is 1MW.  The operational cost and maintenance cost of PV array are respectively \$0/kWh and \$0.005/kWh. The PV capacity factor average is 18\% which is from the trace of Houston PV generation.
+
+\emph{GE engines:} The amortized infrastructure cost of GE engines is \$1/W. Maximum size of GE engines can be installed is 1.4MW. The operational cost is \$0.06/kWh (natural gas, \$5/Mcf \cite{gasPrice}, 30\% efficiency), while the maintenance cost is \$0.005/kWh. We vary the natural gas price in Figure \ref{f.capacity_gas} to study the impacts of natural gas prices.
+
+\emph{Electrical grid:} The base electricity price is fixed at \$0.056/kWh (Texas) \cite{electricityRateTexas}. There is no sell back price. 
+
+\emph{Emissions:} The emissions rate from PV array, GE generation, and electricity grid are 0.034g/kWh, 0.443g/kWh, and 0.5g/kWh, respectively.
+
+\emph{Prediction errors.} Prediction errors are assumed to be mutually independent and follow the normal distribution with zero mean. To study the impacts of prediction errors, we vary the normalized RMSEs (root mean squared errors) in Figure {\ref{f.prediction}}.
+
+%The capacity of electricity grid is implicitly the peak of grid power consumption (grid peak).
+
+\input{scripts/sustainable_dc}
+
+\input{scripts/prediction_errors}
+
+\input{scripts/off_grid_dc}
