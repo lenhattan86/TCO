@@ -1,6 +1,6 @@
 close all; clear all; clc;
 
-OFFICIAL  = 0;
+OFFICIAL  = 1;
 
 addpath('functions/');
 
@@ -33,9 +33,13 @@ T = TS*ND; % planning period length, in hours
 IP = 0.04; % idle power consumption of a server, in kW
 PP = 0.2; % peak power consumption of a server, in kW
 CO2_grid = 0.5*1000; % g CO2/kWh of grid power consumption
-DC_power = 1000; % Data center power capacity, in kW
+DC_power = 10000; % Data center power capacity, in kW
+DC_CPU = 1000; % 1000
+DC_GPU = 1000; % 1000
 OP = 5/6; % over-provisioning ratio of IT and power
 IT = DC_power*OP;% Data center IT capacity, in kW
+IT_CPU = DC_CPU*OP;
+IT_GPU = DC_GPU*OP;
 con = 0.9; % maximum utilization after consolidation
 plot_PV = 0; % plot PV traces
 plot_demand = 0; % plot power demand
@@ -46,44 +50,41 @@ RC_decrease = 0.85;% http://cleantechnica.com/2015/01/29/solar-costs-will-fall-4
 CRC_increase = 1.00;% gas price:
 workload_increase = 1.09; %1.09;
 
+%%
+% batch job
+BN = 1; % average number of batch job arrivals per timeslot
+BM = 0.25; % batch job ratio, compared with interactive workload
+IPU = 0.7/workload_increase^(N_y-1); % 0.7; % interactive workload peak utilization
+au = 0.4; % average utilization of interactive workloads
+IM_cpu = IT_CPU*au*IPU; % peak of interactive workload consumption, in servers
+IM_gpu = IT_GPU*au*IPU; % peak of interactive workload consumption, in servers
+PMR = 2.5; % peak to mean ratio, should be smaller than current PMR
 %% HP Houston
 % interactive workloads
 IN = 1; % number of interactive workloads
 IL = {'traces/SAPnew/sapTrace2.tab'};
 a = zeros(IN,T);
-au = 0.4; % average utilization of interactive workloads
-IPU = 0.7/workload_increase^(N_y-1); % 0.7; % interactive workload peak utilization
-IM = IT*au*IPU; % peak of interactive workload consumption, in servers
-PMR = 2.5; % peak to mean ratio, should be smaller than current PMR
 for i = 1:1:IN
-    a(i,:) = interactive_process(char(IL(i)), T, 12, 4, PMR, IM(i));
+    a(i,:) = interactive_process(char(IL(i)), T, 12, 4, PMR, IM_cpu(i));
 end
 
-
-% batch job
-BN = 1; % average number of batch job arrivals per timeslot
-BM = 0.25; % batch job ratio, compared with interactive workload
 [A,BS,S,E] = batch_job_generator(T,BN*T,'Uniform',23.99,23.99,'Uniform',1,1,BM/(1-BM)*sum(mean(a,2)./au)/con); % generate batch jobs based on statistical properties
 bu = 1; % average utilization of batch job when running alone.
 %% Microsoft
 % interactive workloads
-IN = 1; % number of interactive workloads
-IL = {'traces/SAPnew/sapTrace2.tab'};
-a = zeros(IN,T);
-au = 0.4; % average utilization of interactive workloads
-IPU = 0.7/workload_increase^(N_y-1); % 0.7; % interactive workload peak utilization
-IM = IT*au*IPU; % peak of interactive workload consumption, in servers
-PMR = 2.5; % peak to mean ratio, should be smaller than current PMR
-for i = 1:1:IN
-    a(i,:) = interactive_process(char(IL(i)), T, 12, 4, PMR, IM(i));
-end
+IN_gpu = 1; % number of interactive workloads
+IL_gpu = {'traces/microsoft/unknown_cpu.csv'};
 
+a_gpu = zeros(IN,T);
+for i = 1:1:IN_gpu
+    a_gpu(i,:) = interactive_process_microsoft(char(IL_gpu(i)), T, 60, 60*8, PMR, IM_gpu(i));
+end
+% a_gpu=(circshift(a_gpu',[12 0]))';
+plot(a_gpu);
 
 % batch job
-BN = 1; % average number of batch job arrivals per timeslot
-BM = 0.25; % batch job ratio, compared with interactive workload
-[A,BS,S,E] = batch_job_generator(T,BN*T,'Uniform',23.99,23.99,'Uniform',1,1,BM/(1-BM)*sum(mean(a,2)./au)/con); % generate batch jobs based on statistical properties
-bu = 1; % average utilization of batch job when running alone.
+BN_gpu= 1; % average number of batch job arrivals per timeslot
+[A_gpu,BS_gpu,S_gpu,E_gpu] = batch_job_generator(T,BN_gpu*T,'Uniform',23.99,23.99,'Uniform',1,1,BM/(1-BM)*sum(mean(a_gpu,2)./au)/con); % generate batch jobs based on statistical properties
 
 %%
 % uncontrolled renewable generation, e.g., PV, wind
@@ -183,17 +184,11 @@ end
 
 % https://github.com/lenhattan86/azure_trace 
 % convert to GPU workload 
-a_Array  =  zeros(T, N_y); BS_Array =  zeros(BN*T, N_y); A_Array = repmat(A,[1 1 N_y]);
+a_Array_gpu  =  zeros(T, N_y); BS_Array_gpu =  zeros(BN*T, N_y); A_Array_gpu = repmat(A_gpu,[1 1 N_y]);
 
 for y = 1:1:N_y    
-    GP_Array(:,y) = GP*GP_increase^(y-1);
-    RC_Array(1,y) = RC(1)*RC_decrease^(y-1);
-    RC_Array(2,y) = RC(2);
-    CRC_Array(2:T+1,y) = (CRC(2:T+1)-0.005)*CRC_increase^(y-1)+0.005;    
-    CRC_Array(1,y) = CRC(1);
-    
-    a_Array(:, y) = a*workload_increase^(y-1);
-    BS_Array(:,y)    = BS*workload_increase^(y-1);    
+    a_Array_gpu(:, y) = a_gpu*workload_increase^(y-1);
+    BS_Array_gpu(:,y)    = BS_gpu*workload_increase^(y-1);    
 %     IT_C(y) = IT*workload_increase^(y-1);% Data center IT capacity, in kW
 end
 

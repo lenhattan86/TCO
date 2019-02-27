@@ -227,7 +227,7 @@ ylim([0,sum(emissions(1,:))*1.05]);
 legendStr = {PVCapacityStr, GECapacityStr, gridCapacityStr};
 legend(legendStr,'Location','northeast','FontSize',fontLegend);
 set (gcf, 'PaperUnits', 'inches', 'PaperPosition', [0.0 0 4.0 3.5]);
-print ('-depsc', [fig_path 'long_term_co2.eps']);
+print ('-depsc', [FIG_PATH 'long_term_co2.eps']);
 
 norm_emission = sum(emissions,2)./total_demand';
 figure;
@@ -291,7 +291,7 @@ ylim([0,max(capacity_int)*1.1]);
 xlim([0.5 4.5]);
 set(gca,'xticklabel',{gridOnlyStr,supplyStr,demandStr,integratedStr},'FontSize',fontAxis);
 set (gcf, 'PaperUnits', 'inches', 'PaperPosition', [0.0 0 4.0 3.5]);
-print ('-depsc', [fig_path 'capacity_comp.eps']);
+print ('-depsc', [FIG_PATH 'capacity_comp.eps']);
 % eps2pdf('results/capacity_comp.eps',gs_path);
 
 figure;
@@ -303,7 +303,7 @@ xlim([0.5 4.5]);
 ylim([0,sum(cost_grid)*1.05]);
 set(gca,'xticklabel',{gridOnlyStr,supplyStr,demandStr,integratedStr},'FontSize',fontAxis);
 set (gcf, 'PaperUnits', 'inches', 'PaperPosition', [0.0 0 4.0 3.5]);
-print ('-depsc', [fig_path 'cost_comp.eps']);
+print ('-depsc', [FIG_PATH 'cost_comp.eps']);
 
 figure;
 bar([emission_grid;emission_supply;emission_demand;emission_int]/1000,barWidth*2/3,'stacked');
@@ -314,7 +314,7 @@ legend(legendStr,'Location','northeast','FontSize',fontLegend);
 % ylim([0,max(emission_grid)*1.3]);
 set(gca,'xticklabel',{gridOnlyStr,supplyStr,demandStr,integratedStr},'FontSize',fontAxis);
 set (gcf, 'PaperUnits', 'inches', 'PaperPosition', [0.0 0 4.0 3.5]);
-print ('-depsc', [fig_path 'emission_comp.eps']);
+print ('-depsc', [FIG_PATH 'emission_comp.eps']);
 % eps2pdf('results/emission_comp.eps',gs_path);
 
 

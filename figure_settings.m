@@ -1,6 +1,6 @@
 clear all; clc; close all;
-%FIG_PATH = '../figs/';
-FIG_PATH = '../manuscript/figs/';
+FIG_PATH = 'figs/';
+% FIG_PATH = '../manuscript/figs/';
 %FIG_PATH = 'results/';
 
 gridOnlyStr = 'Grid Only';
@@ -72,4 +72,6 @@ colorset = [0   0   1;...
 0.620689655172414   0.310344827586207   0.275862068965517];
 
 IS_CHANGE_COLOR = 0;
+
+figure_size = [0.0 0 4.0 3.5];
 close all;
