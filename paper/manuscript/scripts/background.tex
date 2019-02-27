@@ -1,0 +1,50 @@
+\section{Background and prior-work}
+
+\subsection{Sustainable data centers}
+
+The burdens of financial costs, energy resources, and emissions have been heavily put on data centers \cite{koomey2008worldwide}. Thus, the concept of sustainable data centers has been defined to cut the electricity usage, utilize renewable energy sources, and reduce emissions \cite{weihl2011sustainable}. A sustainable data center can be powered by multiple energy resources, while renewable energy sources, such as photovoltaic (PV) and wind, are preferred.
+%As the output of renewable energy is uncontrollable, effectively designing a lower cost sustainable data center is challenging.
+
+From social perspectives, reducing GHG emissions becomes critical. Various countries are developing the policies and regulation on emissions. For example, cap and trade is the government-mandated and market-based approach that controls pollution by providing economic incentives for achieving reductions in emissions \cite{stavins2003experience}. The violation of regulated emission caps may lead to penalties \cite{revelle2009cap}. Therefore, such heavy power loads like data centers are under pressure to reduce their emissions.
+%The emissions of a data center come from all processes of developing, operating and maintaining IT and non-IT systems \cite{bouley2010estimating}.
+
+\textbf{What we model and study:} We model sustainable data centers in Section \ref{sec:OptimizationFramework}. In our evaluation, we study our proposed optimization framework on a sustainable data center in terms of costs and emissions. Furthermore, we extend the evaluation to a Net-zero Energy Data Center, a special case of sustainable data centers.
+
+\subsection{Data center power management}
+
+The major operational cost is dependent on data center power management. A data center power management scheme, run by human or computer program, strives to reduce the costs and emissions. Data center power management can be divided into multiple topics, such as server consolidation \cite{lin2013dynamic,zhang2012dynamic,lin2011online}, network consolidation \cite{andrews2012routing,zhang2010greente,sharmashrink}, colocation of workloads \cite{aksanli2012utilizing}, cooling power optimization \cite{liu2012renewable,pakbaznia2009minimizing}, batch job scheduling \cite{mukherjee2009spatio,garg2011sla}, geographical load balancing \cite{qureshi2009cutting,liu2011greening}, and using energy storages \cite{urgaonkar2011optimal,liu2012renewable,liu2013data}. Now, we discuss colocation of workloads in more details.
+
+\emph{Server consolidation}: Huge amounts of power are wasted due to the large idle power consumption of servers and low utilization. Therefore, significant power can be saved by consolidating workloads on the right amount of servers and switching the remaining servers to low power modes or even turning them off \cite{zhang2012dynamic,lin2011online,lin2013dynamic}.
+
+\emph{Network consolidation}: Thousands of network devices can also be switched off to save the power consumption. The key idea is to turn off the unused network devices, such as the switches connected to the servers that have been turned-off \cite{andrews2012routing,zhang2010greente,sharmashrink}.
+ 
+\emph{Colocation of workloads}: Currently, the two types of workload, i.e. interactive workloads and batch jobs, are usually served on different servers, making it difficult to save power through consolidation. On the other hand, the power saving potential is great because there are different resource and performance requirements for interactive workloads and batch jobs. A promising way is to run interactive workloads with high priority that keeps its performance, e.g., mean/percentile response time, (almost) unaffected while running batch jobs whenever there is spare capacity to use. This can significantly increase the server utilization and therefore save power \cite{aksanli2012utilizing}.
+
+\emph{Cooling optimization}: While a large amount of power is used for keeping data centers under certain thermal constraints through cooling systems, there is great potential to reduce cooling power by optimizing the data center to use the most effective cooling in the right amount at the right time \cite{liu2012renewable,pakbaznia2009minimizing}.
+
+\emph{Batch job scheduling}: The flexibility in batch jobs provides great temporal flexibility for scheduling to shape the demand. A smart scheduler can run batch jobs in the right amount at the right time to make demand more supply following \cite{mukherjee2009spatio,garg2011sla}.
+
+\emph{Geographical load balancing}: When an interactive workload is served by an Internet-scale system having data centers at different locations, a spatial flexibility emerges. A global load balancer can route interactive workload request to the right data center to better align demand with supply \cite{qureshi2009cutting,liu2011greening}.
+
+\emph{Energy storage}: Energy storages can be used to save energy cost by charging when supply exceeds demand or supply is cheap and discharge in the future to power the data center, which can better align power supply with demand. However, the current high cost of energy storage usually prevents large deployment, e.g., using energy storage to power the whole data center for several hours. Instead, the current practice just uses energy storages in UPS (Uninterrupted Power Supply) as a transit from the electricity grid to backup generators, which can last several minutes to tens of minutes depending on the ramp up the speed of the backup generators \cite{urgaonkar2011optimal,liu2012renewable,liu2013data}.
+
+\textbf{What we model and study:} We incorporate one of the aforementioned techniques, i.e., colocation of workloads, into our framework, which is general enough to include other techniques. In our evaluation, we study that important role of power demand management in reducing costs and emissions.
+
+\subsection{Data center demand response (DCDR)}
+
+Demand response (DR) programs are defined to improve the traditional electricity markets and grids. There are generally two types of participation in DR programs, which are passive and active participations \cite{wierman2014opportunities}. 
+\hidevspace{\vspace{-0.15cm}}
+\begin{itemize}
+	\item Passive participation: Passive participation is typical in the smart pricing services. The pricing services issue price signals to encourage electricity users to adjust their power consumption profiles. In electricity markets, there are multiple pricing services, i.e. Time-of-Use (ToU), Inclining Block Rates (IBR), Peak Pricing (PP), Coincident Peak Pricing (CPP), Day-ahead Pricing (DaP), and Real-Time Pricing (RTP). For example, peak-pricing charges a high price at peak demand to prevent power outages.	
+	
+	\hidevspace{\vspace{-0.15cm}}
+	
+	\item Active participation: Active participation is diverse. Customers can use the wholesale markets, ancillary services, or voluntary reduction programs. A wholesale market allows data centers to purchase electricity directly from power suppliers instead of regional retailers. Ancillary services are defined to maintain reliable operation and security of the electricity transmission system. The basic idea is to encourage customers to adjust their loads due to the condition of the electricity grid. In voluntary reduction programs, customers can have flexible contracts with grid operators for offering services.
+	
+	\hidevspace{\vspace{-0.15cm}}
+\end{itemize}
+
+There is a high potential that large power loads like data centers participate in demand response programs. In addition to the flexibility of power demand, data centers can utilize their energy storages as well as UPS to increase the flexibility of their loads during the demand response events \cite{liu2014pricing,wierman2014opportunities}.
+%Some recent studies show that data centers can significantly reduce the voltage violation frequency and generation cost for the electricity grid \cite{liu2014pricing, wierman2014opportunities}.
+
+\textbf{What we model and study:} In Section \ref{sec:DR_evaluation}, we model and study the participation of data centers in DR programs. We incorporate and evaluate several popular DR programs, i.e., ToU, CPP, IBR, an ancillary service, and wholesale markets. We conduct simulations to answer the following questions: How do DR programs change the power profile of data centers? How do the DR programs impact on the capacity planning and operational decisions?

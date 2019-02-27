@@ -1,0 +1,1475 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.6)  29 JUN 2016 13:12
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**sample1.tex
+(./sample1.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(./acmsmall.cls
+Document Class: acmsmall 2013/08/09 v1.10 ACM class
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+ACM, Production Font style: 2010/06/28 by Aptara
+
+Using ACM, TECS option: 2010/05/04 by Aptara
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 143.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count79
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+)
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+Document Class `acmsmall' Electronic Submissions v1.10 <August 10, 2013> (ACM).
+
+\@firstpg=\count80
+\@lastpg=\count81
+\trimheight=\dimen104
+\trimwidth=\dimen105
+\normaltextheight=\dimen106
+\tempdimen=\dimen107
+\tempbox=\box26
+\tbbox=\box27
+\tabledim=\dimen108
+\symnewlargesymbols=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \bigsqcup on input line 2559.
+\normalparindent=\dimen109
+\footheight=\skip41
+\@maxsep=\skip42
+\@dblmaxsep=\skip43
+(./acmcopyright.sty
+Package: acmcopyright 2014/06/29 v1.2 Copyright statemens for ACM classes
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+)
+\XKV@depth=\count82
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+\@totalpg=\count83
+\@abstract=\box28
+
+(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment') Excluding comment 'CCSXML'
+\@permissionbox=\box29
+\c@part=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\enumdim=\dimen110
+\c@theorem=\count89
+\belowcaptionskip=\skip44
+\abovecaptionskip=\skip45
+\c@figure=\count90
+\c@table=\count91
+\@narrowfig=\dimen111
+\@nfigbox=\box30
+\@nfcapbox=\box31
+\@nfigbox=\box32
+\@nfcapbox=\box33
+\bibindent=\dimen112
+LaTeX Font Info:    Overwriting math alphabet `\mathbb' in version `normal'
+(Font)                  OT1/ams/bx/n --> OT1/ams/bx/n on input line 4177.
+LaTeX Font Info:    Overwriting math alphabet `\mathbb' in version `bold'
+(Font)                  OT1/ams/bx/n --> OT1/ams/bx/n on input line 4178.
+) (./lib/packages.tex
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count92
+\float@exts=\toks18
+\float@box=\box34
+\@float@everytoks=\toks19
+\@floatcapt=\box35
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip46
+\subfigcapskip=\skip47
+\subfigcaptopadj=\dimen113
+\subfigbottomskip=\skip48
+\subfigcapmargin=\dimen114
+\subfiglabelskip=\skip49
+\c@subfigure=\count93
+\c@lofdepth=\count94
+\c@subtable=\count95
+\c@lotdepth=\count96
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip50
+\subfig@bottom=\skip51
+)
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen115
+)
+LaTeX Info: Redefining \text on input line 28.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen116
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count97
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count98
+\leftroot@=\count99
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count100
+\DOTSCASE@=\count101
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box36
+\strutbox@=\box37
+\big@size=\dimen117
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count102
+\c@MaxMatrixCols=\count103
+\dotsspace@=\muskip11
+\c@parentequation=\count104
+\dspbrk@lvl=\count105
+\tag@help=\toks21
+\row@=\count106
+\column@=\count107
+\maxfields@=\count108
+\andhelp@=\toks22
+\eqnshift@=\dimen118
+\alignsep@=\dimen119
+\tagshift@=\dimen120
+\tagwidth@=\dimen121
+\totwidth@=\dimen122
+\lineht@=\dimen123
+\@envbody=\toks23
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup7
+\symAMSb=\mathgroup8
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/esint/esint.sty
+Package: esint 
+\symlargesymbolsA=\mathgroup9
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks25
+\verbatim@line=\toks26
+\verbatim@in@stream=\read1
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen124
+\pgfutil@tempdimb=\dimen125
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box38
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks30
+))
+\pgf@x=\dimen126
+\pgf@y=\dimen127
+\pgf@xa=\dimen128
+\pgf@ya=\dimen129
+\pgf@xb=\dimen130
+\pgf@yb=\dimen131
+\pgf@xc=\dimen132
+\pgf@yc=\dimen133
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count109
+\c@pgf@countb=\count110
+\c@pgf@countc=\count111
+\c@pgf@countd=\count112
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count113
+\pgfsyssoftpath@bigbuffer@items=\count114
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen134
+\pgfmath@count=\count115
+\pgfmath@box=\box39
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count116
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen135
+\pgf@picmaxx=\dimen136
+\pgf@picminy=\dimen137
+\pgf@picmaxy=\dimen138
+\pgf@pathminx=\dimen139
+\pgf@pathmaxx=\dimen140
+\pgf@pathminy=\dimen141
+\pgf@pathmaxy=\dimen142
+\pgf@xx=\dimen143
+\pgf@xy=\dimen144
+\pgf@yx=\dimen145
+\pgf@yy=\dimen146
+\pgf@zx=\dimen147
+\pgf@zy=\dimen148
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen149
+\pgf@path@lasty=\dimen150
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen151
+\pgf@shorten@start@additional=\dimen152
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box40
+\pgf@hbox=\box41
+\pgf@layerbox@main=\box42
+\pgf@picture@serial@count=\count117
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen153
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen154
+\pgf@pt@y=\dimen155
+\pgf@pt@temp=\dimen156
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen157
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen158
+\pgf@sys@shading@range@num=\count118
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box43
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box44
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen159
+\pgf@nodesepend=\dimen160
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen161
+\pgffor@skip=\dimen162
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count119
+\pgfplotmarksize=\dimen163
+)
+\tikz@lastx=\dimen164
+\tikz@lasty=\dimen165
+\tikz@lastxsaved=\dimen166
+\tikz@lastysaved=\dimen167
+\tikzleveldistance=\dimen168
+\tikzsiblingdistance=\dimen169
+\tikz@figbox=\box45
+\tikz@figbox@bg=\box46
+\tikz@tempbox=\box47
+\tikz@tempbox@bg=\box48
+\tikztreelevel=\count120
+\tikznumberofchildren=\count121
+\tikznumberofcurrentchild=\count122
+\tikz@fig@count=\count123
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count124
+\pgfmatrixcurrentcolumn=\count125
+\pgf@matrix@numberofcolumns=\count126
+)
+\tikz@expandcount=\count127
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/bbm-macros/bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/preprint/balance.sty
+Package: balance 1999/02/23 4.3 (PWD)
+\oldvsize=\dimen170
+)
+(/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks39
+\SOUL@lasttoken=\toks40
+\SOUL@cmds=\toks41
+\SOUL@buffer=\toks42
+\SOUL@token=\toks43
+\SOUL@spaceskip=\skip55
+\SOUL@ttwidth=\dimen171
+\SOUL@uldp=\dimen172
+\SOUL@ulht=\dimen173
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2014/10/28 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup10
+\symboldletters=\mathgroup11
+\symboldsymbols=\mathgroup12
+\symboldlasy=\mathgroup13
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen174
+))
+(./lib/macros.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2013/01/06 v5.00 algorithms environments
+\c@AlgoLine=\count128
+\algocf@hangindent=\skip56
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+********************************************************
+Package `algorithm2e' Release 5.1 -- october 19 2015 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (christophe.fiorio@umontpellier.fr)
+********************************************************
+\skiptotal=\skip57
+\skiplinenumber=\skip58
+\skiprule=\skip59
+\skiphlne=\skip60
+\skiptext=\skip61
+\skiplength=\skip62
+\algomargin=\skip63
+\skipalgocfslide=\skip64
+\algowidth=\dimen175
+\inoutsize=\dimen176
+\inoutindent=\dimen177
+\interspacetitleruled=\dimen178
+\interspacealgoruled=\dimen179
+\interspacetitleboxruled=\dimen180
+\algocf@ruledwidth=\skip65
+\algocf@inoutbox=\box49
+\algocf@inputbox=\box50
+\AlCapSkip=\skip66
+\AlCapHSkip=\skip67
+\algoskipindent=\skip68
+\algocf@nlbox=\box51
+\algocf@hangingbox=\box52
+\algocf@untilbox=\box53
+\algocf@skipuntil=\skip69
+\algocf@capbox=\box54
+\algoheightruledefault=\skip70
+\algoheightrule=\skip71
+\algotitleheightruledefault=\skip72
+\algotitleheightrule=\skip73
+\c@algocfline=\count129
+\c@algocfproc=\count130
+\c@algocf=\count131
+\algocf@algoframe=\box55
+\algocf@algobox=\box56
+) (./sample1.aux
+
+LaTeX Warning: Label `tbl:decision' multiply defined.
+
+)
+\openout1 = `sample1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Try loading font information for OT1+pnc on input line 46.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pnc.fd
+File: ot1pnc.fd 2001/06/04 font definitions for OT1/pnc.
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count132
+\scratchdimen=\dimen181
+\scratchbox=\box57
+\nofMPsegments=\count133
+\nofMParguments=\count134
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count135
+\MPscratchDim=\dimen182
+\MPnumerator=\count136
+\makeMPintoPDFobject=\count137
+\everyMPtoPDFconversion=\toks45
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros (./scripts/abstract.tex)
+Excluding 'CCSXML' comment.
+LaTeX Font Info:    Try loading font information for OMS+pnc on input line 141.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspnc.fd
+File: omspnc.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pnc/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 141.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 143.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 143.
+LaTeX Font Info:    Font shape `OT1/pnc/bx/n' in size <8> not available
+(Font)              Font shape `OT1/pnc/b/n' tried instead on input line 143.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 143.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 143.
+
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 143.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 143.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+esint on input line 143.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
+File: uesint.fd 
+)
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 143.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 143.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 143.
+ (./scripts/intro.tex
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/pnc/bx/n' in size <10> not available
+(Font)              Font shape `OT1/pnc/b/n' tried instead on input line 5.
+
+
+LaTeX Warning: Citation ` CarbonFootprints2009' on page 1 undefined on input li
+ne 5.
+
+
+Overfull \vbox (72.27pt too high) has occurred while \output is active []
+
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+Non-PDF special ignored!
+
+]
+
+LaTeX Warning: Citation ` urgaonkar2011optimal' on page 2 undefined on input li
+ne 13.
+
+
+LaTeX Warning: Citation ` liu2011greening' on page 2 undefined on input line 13
+.
+
+
+LaTeX Warning: Citation ` lin2011online' on page 2 undefined on input line 25.
+
+
+LaTeX Warning: Citation ` lin2013dynamic' on page 2 undefined on input line 25.
+
+
+
+LaTeX Warning: Citation ` zhang2010greente' on page 2 undefined on input line 2
+5.
+
+
+LaTeX Warning: Citation ` sharmashrink' on page 2 undefined on input line 25.
+
+
+LaTeX Warning: Citation ` pakbaznia2009minimizing' on page 2 undefined on input
+ line 25.
+
+
+LaTeX Warning: Citation ` liu2012renewable' on page 2 undefined on input line 2
+5.
+
+
+LaTeX Warning: Citation ` liu2013data' on page 2 undefined on input line 25.
+
+
+LaTeX Warning: Citation ` liu2014pricing' on page 2 undefined on input line 29.
+
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2])
+(./scripts/background.tex
+Underfull \vbox (badness 3449) has occurred while \output is active []
+
+ [3]
+
+LaTeX Warning: Citation ` lin2011online' on page 4 undefined on input line 15.
+
+
+LaTeX Warning: Citation ` lin2013dynamic' on page 4 undefined on input line 15.
+
+
+
+LaTeX Warning: Citation ` zhang2010greente' on page 4 undefined on input line 1
+5.
+
+
+LaTeX Warning: Citation ` sharmashrink' on page 4 undefined on input line 15.
+
+
+LaTeX Warning: Citation ` pakbaznia2009minimizing' on page 4 undefined on input
+ line 15.
+
+
+LaTeX Warning: Citation ` liu2012renewable' on page 4 undefined on input line 1
+5.
+
+
+LaTeX Warning: Citation ` liu2013data' on page 4 undefined on input line 15.
+
+[4]) (./scripts/optimization.tex
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 8.
+ [5]
+Overfull \hbox (25.03174pt too wide) in paragraph at lines 56--56
+[]\OT1/phv/m/n/8 Table I.
+ []
+
+
+Overfull \hbox (13.78389pt too wide) in paragraph at lines 56--56
+\OT1/phv/m/n/8 The
+ []
+
+
+Overfull \hbox (11.55988pt too wide) in paragraph at lines 56--56
+\OT1/phv/m/n/8 de-
+ []
+
+
+Overfull \hbox (19.67178pt too wide) in paragraph at lines 56--56
+\OT1/phv/m/n/8 scrip-
+ []
+
+
+Overfull \hbox (12.8958pt too wide) in paragraph at lines 56--56
+\OT1/phv/m/n/8 tion
+ []
+
+
+Overfull \hbox (6.67188pt too wide) in paragraph at lines 56--56
+\OT1/phv/m/n/8 of
+ []
+
+
+Overfull \hbox (11.10391pt too wide) in paragraph at lines 56--56
+\OT1/phv/m/n/8 im-
+ []
+
+
+Overfull \hbox (14.22385pt too wide) in paragraph at lines 56--56
+\OT1/phv/m/n/8 por-
+ []
+
+
+Overfull \hbox (13.34375pt too wide) in paragraph at lines 56--56
+\OT1/phv/m/n/8 tant
+ []
+
+
+Overfull \hbox (11.55988pt too wide) in paragraph at lines 56--56
+\OT1/phv/m/n/8 no-
+ []
+
+
+Overfull \hbox (9.33585pt too wide) in paragraph at lines 56--56
+\OT1/phv/m/n/8 ta-
+ []
+
+
+Overfull \hbox (16.8958pt too wide) in paragraph at lines 56--56
+\OT1/phv/m/n/8 tions
+ []
+
+
+Overfull \hbox (6.22392pt too wide) in paragraph at lines 56--56
+\OT1/phv/m/n/8 in
+ []
+
+
+Overfull \hbox (15.39992pt too wide) in paragraph at lines 56--56
+\OT1/phv/m/n/8 year
+ []
+
+
+Overfull \hbox (6.7124pt too wide) in paragraph at lines 56--56
+\OML/cmm/m/it/8 y$\OT1/phv/m/n/8 . 
+ []
+
+
+Underfull \hbox (badness 2393) in paragraph at lines 70--71
+[]\OT1/pnc/m/n/10 Total batch job work-load
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 80--81
+[]\OT1/pnc/m/n/10 Amortized cost of IT and
+ []
+
+
+Overfull \hbox (13.266pt too wide) in paragraph at lines 91--92
+[][]| 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+Overfull \hbox (27.25566pt too wide) in paragraph at lines 119--119
+[]\OT1/phv/m/n/8 Table II.
+ []
+
+
+Overfull \hbox (19.11183pt too wide) in paragraph at lines 119--119
+\OT1/phv/m/n/8 Sum-
+ []
+
+
+Overfull \hbox (18.01584pt too wide) in paragraph at lines 119--119
+\OT1/phv/m/n/8 mary
+ []
+
+
+Overfull \hbox (6.67188pt too wide) in paragraph at lines 119--119
+\OT1/phv/m/n/8 of
+ []
+
+
+Overfull \hbox (11.55988pt too wide) in paragraph at lines 119--119
+\OT1/phv/m/n/8 ob-
+ []
+
+
+Overfull \hbox (12.8879pt too wide) in paragraph at lines 119--119
+\OT1/phv/m/n/8 jec-
+ []
+
+
+Overfull \hbox (12.24785pt too wide) in paragraph at lines 119--119
+\OT1/phv/m/n/8 tive
+ []
+
+
+Overfull \hbox (17.7759pt too wide) in paragraph at lines 119--119
+\OT1/phv/m/n/8 com-
+ []
+
+
+Overfull \hbox (11.55988pt too wide) in paragraph at lines 119--119
+\OT1/phv/m/n/8 po-
+ []
+
+
+Overfull \hbox (21.67178pt too wide) in paragraph at lines 119--119
+\OT1/phv/m/n/8 nents. 
+ []
+
+
+Overfull \hbox (7.08679pt too wide) in paragraph at lines 123--123
+[]\OT1/pnc/m/it/10 UtilBill| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+[]$[][] [][] [][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y; t\OT1/cmr/m/n/10 )\OML/cm
+m/m/it/10 c[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y; t\OT1/cmr/m/n/10 ) \OMS/cmsy/
+m/n/10 ^^@
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+[]$[][]\OT1/cmr/m/n/10 ([][](\OML/cmm/m/it/10 I[]\OT1/cmr/m/n/10 (\OML/cmm/m/it
+/10 y\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 C[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\O
+T1/cmr/m/n/10 ) +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+[]$[][]\OT1/cmr/m/n/10 ([][](\OML/cmm/m/it/10 I[]\OT1/cmr/m/n/10 (\OML/cmm/m/it
+/10 y\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 C[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\O
+T1/cmr/m/n/10 ) +
+ []
+
+[7]
+LaTeX Font Info:    Font shape `OT1/pnc/bx/it' in size <10> not available
+(Font)              Font shape `OT1/pnc/b/it' tried instead on input line 147.
+
+Overfull \hbox (29.47958pt too wide) in paragraph at lines 154--154
+[]\OT1/phv/m/n/8 Table III.
+ []
+
+
+Overfull \hbox (19.11183pt too wide) in paragraph at lines 154--154
+\OT1/phv/m/n/8 Sum-
+ []
+
+
+Overfull \hbox (18.01584pt too wide) in paragraph at lines 154--154
+\OT1/phv/m/n/8 mary
+ []
+
+
+Overfull \hbox (6.67188pt too wide) in paragraph at lines 154--154
+\OT1/phv/m/n/8 of
+ []
+
+
+Overfull \hbox (11.55988pt too wide) in paragraph at lines 154--154
+\OT1/phv/m/n/8 de-
+ []
+
+
+Overfull \hbox (8.43994pt too wide) in paragraph at lines 154--154
+\OT1/phv/m/n/8 ci-
+ []
+
+
+Overfull \hbox (14.67188pt too wide) in paragraph at lines 154--154
+\OT1/phv/m/n/8 sion
+ []
+
+
+Overfull \hbox (15.47179pt too wide) in paragraph at lines 154--154
+\OT1/phv/m/n/8 vari-
+ []
+
+
+Overfull \hbox (18.95987pt too wide) in paragraph at lines 154--154
+\OT1/phv/m/n/8 ables
+ []
+
+
+Overfull \hbox (6.22392pt too wide) in paragraph at lines 154--154
+\OT1/phv/m/n/8 in
+ []
+
+
+Overfull \hbox (15.39992pt too wide) in paragraph at lines 154--154
+\OT1/phv/m/n/8 year
+ []
+
+
+Overfull \hbox (6.7124pt too wide) in paragraph at lines 154--154
+\OML/cmm/m/it/8 y$\OT1/phv/m/n/8 . 
+ []
+
+
+Overfull \hbox (5.8169pt too wide) in paragraph at lines 157--157
+[]\OT1/pnc/m/n/10 Symbol| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+[]\OT1/pnc/m/n/10 Capacity
+ []
+
+
+Overfull \hbox (2.12173pt too wide) in paragraph at lines 161--161
+[]$\OML/cmm/m/it/10 C[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )$| 
+ []
+
+
+Overfull \hbox (12.70023pt too wide) in paragraph at lines 162--162
+[]\OT1/pnc/m/n/10 Operational
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+\OT1/pnc/m/n/10 man-age-
+ []
+
+
+Overfull \hbox (3.60866pt too wide) in paragraph at lines 162--162
+[]$\OML/cmm/m/it/10 c[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y; t\OT1/cmr/m/n/10 )$
+| 
+ []
+
+
+Overfull \hbox (3.71976pt too wide) in paragraph at lines 163--163
+[]$\OML/cmm/m/it/10 c[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y; t\OT1/cmr/m/n/10 )$
+| 
+ []
+
+
+Underfull \hbox (badness 6961) in paragraph at lines 163--164
+[]\OT1/pnc/m/n/10 Grid sell-back power at
+ []
+
+
+Overfull \hbox (1.24406pt too wide) in paragraph at lines 164--164
+[]$\OML/cmm/m/it/10 c[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y; t\OT1/cmr/m/n/10 )$
+| 
+ []
+
+
+Overfull \hbox (1.1474pt too wide) in paragraph at lines 165--165
+[]$\OML/cmm/m/it/10 b[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y; t\OT1/cmr/m/n/10 )$
+| 
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 165--165
+[]\OT1/pnc/m/n/10 Power for batch job $\OML/cmm/m/it/10 j$ \OT1/pnc/m/n/10 at
+ []
+
+[8]) (./scripts/evaluation.tex
+Underfull \vbox (badness 1158) has occurred while \output is active []
+
+ [9]
+(./scripts/sustainable_dc.tex
+<figs/long_term_capacity.pdf, id=52, 262.9825pt x 234.8775pt>
+File: figs/long_term_capacity.pdf Graphic file (type pdf)
+
+<use figs/long_term_capacity.pdf>
+Package pdftex.def Info: figs/long_term_capacity.pdf used on input line 19.
+(pdftex.def)             Requested size: 118.80121pt x 106.10605pt.
+
+<figs/long_term_cost.pdf, id=53, 258.9675pt x 249.93375pt>
+File: figs/long_term_cost.pdf Graphic file (type pdf)
+
+<use figs/long_term_cost.pdf>
+Package pdftex.def Info: figs/long_term_cost.pdf used on input line 19.
+(pdftex.def)             Requested size: 118.80121pt x 114.65819pt.
+
+<figs/long_term_co2_norm.pdf, id=54, 261.97874pt x 234.8775pt>
+File: figs/long_term_co2_norm.pdf Graphic file (type pdf)
+
+<use figs/long_term_co2_norm.pdf>
+Package pdftex.def Info: figs/long_term_co2_norm.pdf used on input line 19.
+(pdftex.def)             Requested size: 118.80121pt x 106.51103pt.
+
+
+LaTeX Warning: Citation ` gasPrice' on page 10 undefined on input line 22.
+
+
+LaTeX Warning: Citation ` StevenGlobalTraffic' on page 10 undefined on input li
+ne 22.
+
+[10 <./figs/long_term_capacity.pdf> <./figs/long_term_cost.pdf> <./figs/long_te
+rm_co2_norm.pdf>] <figs/nz-grid_year.pdf, id=77, 263.98625pt x 234.8775pt>
+File: figs/nz-grid_year.pdf Graphic file (type pdf)
+
+<use figs/nz-grid_year.pdf>
+Package pdftex.def Info: figs/nz-grid_year.pdf used on input line 48.
+(pdftex.def)             Requested size: 190.07831pt x 169.11884pt.
+
+<figs/nz-supply_year.pdf, id=78, 263.98625pt x 234.8775pt>
+File: figs/nz-supply_year.pdf Graphic file (type pdf)
+
+<use figs/nz-supply_year.pdf>
+Package pdftex.def Info: figs/nz-supply_year.pdf used on input line 48.
+(pdftex.def)             Requested size: 190.07831pt x 169.11884pt.
+
+<figs/nz-demand_year.pdf, id=79, 263.98625pt x 234.8775pt>
+File: figs/nz-demand_year.pdf Graphic file (type pdf)
+
+<use figs/nz-demand_year.pdf>
+Package pdftex.def Info: figs/nz-demand_year.pdf used on input line 48.
+(pdftex.def)             Requested size: 190.07831pt x 169.11884pt.
+
+<figs/nz-int_year.pdf, id=80, 263.98625pt x 234.8775pt>
+File: figs/nz-int_year.pdf Graphic file (type pdf)
+
+<use figs/nz-int_year.pdf>
+Package pdftex.def Info: figs/nz-int_year.pdf used on input line 48.
+(pdftex.def)             Requested size: 190.07831pt x 169.11884pt.
+ [11 <./figs/nz-grid_year.pdf> <./figs/nz-supply_year.pdf> <./figs/nz-demand_ye
+ar.pdf> <./figs/nz-int_year.pdf>]
+<figs/cost_comparison.pdf, id=104, 262.9825pt x 245.91875pt>
+File: figs/cost_comparison.pdf Graphic file (type pdf)
+
+<use figs/cost_comparison.pdf>
+Package pdftex.def Info: figs/cost_comparison.pdf used on input line 83.
+(pdftex.def)             Requested size: 190.07831pt x 177.7518pt.
+
+<figs/emission_comparison.pdf, id=105, 262.9825pt x 245.91875pt>
+File: figs/emission_comparison.pdf Graphic file (type pdf)
+
+<use figs/emission_comparison.pdf>
+Package pdftex.def Info: figs/emission_comparison.pdf used on input line 83.
+(pdftex.def)             Requested size: 190.07831pt x 177.7518pt.
+) (./scripts/prediction_errors.tex [12 <./figs/cost_comparison.pdf> <./figs/emi
+ssion_comparison.pdf>]
+<figs/cost_err_comparison.pdf, id=127, 264.99pt x 249.93375pt>
+File: figs/cost_err_comparison.pdf Graphic file (type pdf)
+
+<use figs/cost_err_comparison.pdf>
+Package pdftex.def Info: figs/cost_err_comparison.pdf used on input line 27.
+(pdftex.def)             Requested size: 190.07831pt x 179.28094pt.
+
+<figs/emission_err_comparison.pdf, id=128, 264.99pt x 249.93375pt>
+File: figs/emission_err_comparison.pdf Graphic file (type pdf)
+
+<use figs/emission_err_comparison.pdf>
+Package pdftex.def Info: figs/emission_err_comparison.pdf used on input line 27
+.
+(pdftex.def)             Requested size: 190.07831pt x 179.28094pt.
+) (./scripts/off_grid_dc.tex [13 <./figs/cost_err_comparison.pdf> <./figs/emiss
+ion_err_comparison.pdf>]
+<figs/capacity_electricity.pdf, id=151, 268.00125pt x 234.8775pt>
+File: figs/capacity_electricity.pdf Graphic file (type pdf)
+
+<use figs/capacity_electricity.pdf>
+Package pdftex.def Info: figs/capacity_electricity.pdf used on input line 27.
+(pdftex.def)             Requested size: 190.07831pt x 166.58499pt.
+
+<figs/payback_electricity.pdf, id=152, 268.00125pt x 238.8925pt>
+File: figs/payback_electricity.pdf Graphic file (type pdf)
+
+<use figs/payback_electricity.pdf>
+Package pdftex.def Info: figs/payback_electricity.pdf used on input line 27.
+(pdftex.def)             Requested size: 190.07831pt x 169.43259pt.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 28.
+
+<figs/capacity_gas.pdf, id=153, 272.01625pt x 234.8775pt>
+File: figs/capacity_gas.pdf Graphic file (type pdf)
+
+<use figs/capacity_gas.pdf>
+Package pdftex.def Info: figs/capacity_gas.pdf used on input line 45.
+(pdftex.def)             Requested size: 190.07831pt x 164.13358pt.
+
+<figs/payback_gas.pdf, id=154, 268.00125pt x 234.8775pt>
+File: figs/payback_gas.pdf Graphic file (type pdf)
+
+<use figs/payback_gas.pdf>
+Package pdftex.def Info: figs/payback_gas.pdf used on input line 45.
+(pdftex.def)             Requested size: 190.07831pt x 166.58499pt.
+ [14 <./figs/capacity_electricity.pdf> <./figs/payback_electricity.pdf>] <figs/
+capacity_PMR.pdf, id=169, 269.005pt x 234.8775pt>
+File: figs/capacity_PMR.pdf Graphic file (type pdf)
+
+<use figs/capacity_PMR.pdf>
+Package pdftex.def Info: figs/capacity_PMR.pdf used on input line 89.
+(pdftex.def)             Requested size: 190.07831pt x 165.96497pt.
+
+<figs/cost_PMR.pdf, id=170, 261.97874pt x 249.93375pt>
+File: figs/cost_PMR.pdf Graphic file (type pdf)
+ <use figs/cost_PMR.pdf>
+Package pdftex.def Info: figs/cost_PMR.pdf used on input line 89.
+(pdftex.def)             Requested size: 190.07831pt x 181.34415pt.
+
+[15 <./figs/capacity_gas.pdf> <./figs/payback_gas.pdf> <./figs/capacity_PMR.pdf
+> <./figs/cost_PMR.pdf>]
+<figs/capacity_batch.pdf, id=199, 268.00125pt x 234.8775pt>
+File: figs/capacity_batch.pdf Graphic file (type pdf)
+
+<use figs/capacity_batch.pdf>
+Package pdftex.def Info: figs/capacity_batch.pdf used on input line 109.
+(pdftex.def)             Requested size: 190.07831pt x 166.58499pt.
+
+<figs/cost_batch.pdf, id=200, 253.94875pt x 249.93375pt>
+File: figs/cost_batch.pdf Graphic file (type pdf)
+
+<use figs/cost_batch.pdf>
+Package pdftex.def Info: figs/cost_batch.pdf used on input line 109.
+(pdftex.def)             Requested size: 190.07831pt x 187.07991pt.
+)) (./scripts/demand_response.tex
+Overfull \hbox (29.36768pt too wide) in paragraph at lines 11--11
+[]\OT1/phv/m/n/8 Table IV.
+ []
+
+
+Overfull \hbox (12.8879pt too wide) in paragraph at lines 11--11
+\OT1/phv/m/n/8 De-
+ []
+
+
+Overfull \hbox (20.00783pt too wide) in paragraph at lines 11--11
+\OT1/phv/m/n/8 mand
+ []
+
+
+Overfull \hbox (9.7759pt too wide) in paragraph at lines 11--11
+\OT1/phv/m/n/8 re-
+ []
+
+
+Overfull \hbox (25.79181pt too wide) in paragraph at lines 11--11
+\OT1/phv/m/n/8 sponse
+ []
+
+
+Overfull \hbox (19.80782pt too wide) in paragraph at lines 11--11
+\OT1/phv/m/n/8 rates. 
+ []
+
+[16 <./figs/capacity_batch.pdf> <./figs/cost_batch.pdf>]
+<figs/nz-int_NoDR.pdf, id=218, 262.9825pt x 234.8775pt>
+File: figs/nz-int_NoDR.pdf Graphic file (type pdf)
+
+<use figs/nz-int_NoDR.pdf>
+Package pdftex.def Info: figs/nz-int_NoDR.pdf used on input line 72.
+(pdftex.def)             Requested size: 118.80121pt x 106.10605pt.
+
+<figs/nz-int_tou.pdf, id=219, 262.9825pt x 234.8775pt>
+File: figs/nz-int_tou.pdf Graphic file (type pdf)
+
+<use figs/nz-int_tou.pdf>
+Package pdftex.def Info: figs/nz-int_tou.pdf used on input line 72.
+(pdftex.def)             Requested size: 118.80121pt x 106.10605pt.
+
+<figs/nz-int_cpp.pdf, id=220, 262.9825pt x 235.88126pt>
+File: figs/nz-int_cpp.pdf Graphic file (type pdf)
+
+<use figs/nz-int_cpp.pdf>
+Package pdftex.def Info: figs/nz-int_cpp.pdf used on input line 72.
+(pdftex.def)             Requested size: 118.80121pt x 106.5595pt.
+
+<figs/nz-int_ibr.pdf, id=221, 262.9825pt x 234.8775pt>
+File: figs/nz-int_ibr.pdf Graphic file (type pdf)
+
+<use figs/nz-int_ibr.pdf>
+Package pdftex.def Info: figs/nz-int_ibr.pdf used on input line 72.
+(pdftex.def)             Requested size: 118.80121pt x 106.10605pt.
+
+<figs/nz-int_sr.pdf, id=222, 263.98625pt x 235.88126pt>
+File: figs/nz-int_sr.pdf Graphic file (type pdf)
+
+<use figs/nz-int_sr.pdf>
+Package pdftex.def Info: figs/nz-int_sr.pdf used on input line 72.
+(pdftex.def)             Requested size: 118.80121pt x 106.15277pt.
+
+Underfull \hbox (badness 3713) in paragraph at lines 72--72
+\OT1/pnc/m/n/8 data cen-ter re-duces the grid
+ []
+
+<figs/nz-int_BiMarkets.pdf, id=223, 262.9825pt x 234.8775pt>
+File: figs/nz-int_BiMarkets.pdf Graphic file (type pdf)
+
+<use figs/nz-int_BiMarkets.pdf>
+Package pdftex.def Info: figs/nz-int_BiMarkets.pdf used on input line 72.
+(pdftex.def)             Requested size: 118.80121pt x 106.10605pt.
+
+Underfull \hbox (badness 2913) in paragraph at lines 72--72
+[]\OT1/pnc/m/n/8 (f) Whole-sale (WS). The data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+\OT1/pnc/m/n/8 cen-ter flat-tens the power
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+\OT1/pnc/m/n/8 de-mand to fol-low the pre-
+ []
+
+<figs/capacity_int_DR.pdf, id=224, 262.9825pt x 227.85126pt>
+File: figs/capacity_int_DR.pdf Graphic file (type pdf)
+
+<use figs/capacity_int_DR.pdf>
+Package pdftex.def Info: figs/capacity_int_DR.pdf used on input line 72.
+(pdftex.def)             Requested size: 118.80121pt x 102.93193pt.
+
+<figs/cost_int_DR.pdf, id=225, 262.9825pt x 245.91875pt>
+File: figs/cost_int_DR.pdf Graphic file (type pdf)
+
+<use figs/cost_int_DR.pdf>
+Package pdftex.def Info: figs/cost_int_DR.pdf used on input line 72.
+(pdftex.def)             Requested size: 118.80121pt x 111.09393pt.
+
+<figs/emission_int_DR.pdf, id=226, 262.9825pt x 245.91875pt>
+File: figs/emission_int_DR.pdf Graphic file (type pdf)
+
+<use figs/emission_int_DR.pdf>
+Package pdftex.def Info: figs/emission_int_DR.pdf used on input line 72.
+(pdftex.def)             Requested size: 118.80121pt x 111.09393pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17]
+Underfull \vbox (badness 3354) has occurred while \output is active []
+
+ [18 <./figs/nz-int_NoDR.pdf> <./figs/nz-int_tou.pdf> <./figs/nz-int_cpp.pdf> <
+./figs/nz-int_ibr.pdf> <./figs/nz-int_sr.pdf> <./figs/nz-int_BiMarkets.pdf> <./
+figs/capacity_int_DR.pdf> <./figs/cost_int_DR.pdf> <./figs/emission_int_DR.pdf>
+])
+(./scripts/conclusion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19])
+(./sample1.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 124--130
+[]\OT1/pnc/m/n/8 cleantechnica. So-lar Costs Will Fall An-other 40% In 2 Years.
+ Here's Why.
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 287--293
+[]\OT1/pnc/m/n/8 Zachary Sha-han. 2011. Time of Day Pric-ing in Texas. $http : 
+/ / cleantechnica . com / 2011 / 12 / 27 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--305
+[]\OT1/pnc/m/n/8 Dan Smith. 2011. TXU En-ergy Of-fers Deep Night-time Dis-count
+s for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--305
+\OT1/pnc/m/n/8 Elec-tric-ity. $http : / / www . businesswire . com / news / hom
+e / 20111117005294 / en /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--305
+\OT1/pnc/m/n/8 TXU-[]Energy-[]Oers-[]Deep-[]Nighttime-[]Discounts-[]Electricit
+y$. (2011). $http : / / www . businesswire . com /
+ []
+
+) [21] [1
+
+] (./sample1.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 15148 strings out of 493029
+ 284761 string characters out of 6136235
+ 345815 words of memory out of 5000000
+ 18240 multiletter control sequences out of 15000+600000
+ 41008 words of font info for 103 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,16n,54p,1419b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+ncntrsbk/uncb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/unc
+bi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on sample1.pdf (22 pages, 414076 bytes).
+PDF statistics:
+ 361 PDF objects out of 1000 (max. 8388607)
+ 250 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+

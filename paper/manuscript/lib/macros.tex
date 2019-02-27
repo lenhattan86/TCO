@@ -1,0 +1,63 @@
+\newboolean{showcomments}
+%\setboolean{showcomments}{true}
+\setboolean{showcomments}{false}
+\newboolean{isDel}
+\setboolean{isDel}{true}
+
+\newcommand{\yuan}[1]{  \ifthenelse{\boolean{showcomments}}
+{ \textcolor{red}{(Yuan says:  #1)}} {}  }
+\newcommand{\zhenhua}[1]{\ifthenelse{\boolean{showcomments}}
+{ \textcolor{red}{(Zhenhua says: #1)}}{}}
+\newcommand{\nhattan}[1]{\ifthenelse{\boolean{showcomments}}
+{ \textcolor{red}{(Tan says: #1)}}{}}
+\newcommand{\desc}[1]{  \ifthenelse{\boolean{false}}
+	{ \hl{#1}} {}  }
+	
+\newcommand{\delete}[1]{  \ifthenelse{\boolean{isDel}}
+	{} {\st{#1}}  }
+\newcommand{\del}[1]{  \ifthenelse{\boolean{isDel}}
+	{} {{#1}}  }
+\newcommand{\new}[1]{  \ifthenelse{{\boolean{showcomments}}}
+	{\hl{#1}} {#1}  }
+
+\newcommand{\hideit}[1]{#1}
+%\newcommand{\hidevspace}[1]{#1}
+\newcommand{\hidevspace}[1]{}
+
+
+\newcommand{\todo}[1]{\ifthenelse{\boolean{showcomments}}
+{ \textcolor{red}{(To do: #1)}} {} }
+\newcommand{\addcite}[0]{\ifthenelse{\boolean{showcomments}}
+{ \textcolor{Blue}{(addcite)}}{}}
+\newcommand{\addcites}[0]{\ifthenelse{\boolean{showcomments}}
+{ \textcolor{Blue}{(addcite(s))}}{}}
+\newcommand{\addref}[0]{\ifthenelse{\boolean{showcomments}}
+{ \textcolor{Blue}{(addref)}}{}}
+
+%\newtheorem{definition}{{\bf Definition}}
+%\newtheorem{theorem}{{\bf Theorem}}
+%\newtheorem{lemma}[theorem]{{\bf Lemma}}
+%\newtheorem{claim}[theorem]{{\bf Claim}}
+%\newtheorem{corollary}[theorem]{{\bf Corollary}}
+%\newtheorem{proposition}[theorem]{{\bf Proposition}}
+%\newtheorem{conjecture}[theorem]{{\bf Conjecture}}
+%\newtheorem{alg}{{\bf Algorithm}}
+%\newcommand{\Vector}[1]{\boldsymbol{#1}}
+
+\def\omegau{\underline{\omega}}
+\def\omegab{\bar{\omega}}
+\def\blambda{\boldsymbol{\lambda}}
+\def\bm{\mathbf{m}}
+\def\bM{\mathbf{M}}
+\def\bz{\mathbf{z}}
+\def\bZ{\mathbf{Z}}
+\def\bb{\mathbf{b}}
+\def\bc{\mathbf{c}}
+\def\bd{\mathbf{d}}
+\def\be{\mathbf{e}}
+\def\bg{\mathbf{g}}
+\def\bbe{\bar{\mathbf{e}}}
+\def\ed{\mathbb{E}_{\mathbf{\varepsilon_d}}}
+\def\vd{\varepsilon_d}
+\def\ex{\mathbb{E}}
+\def\vs{\vspace{-0.15in}}

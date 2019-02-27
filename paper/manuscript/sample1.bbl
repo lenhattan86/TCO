@@ -1,0 +1,376 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{{\tt DOI:}\penalty0{#1}\ }
+  \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
+
+\bibitem[\protect\citeauthoryear{??}{hpE}{2014}]%
+        {hpEcoPODs}
+ 2014.
+\newblock {\em IT efficiency races forward in {eBay} Inc.'s data centers with
+  {HP} {EcoPODs}}.
+\newblock {T}echnical {R}eport. HP.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{??}{ele}{2015}]%
+        {electricityRateTexas}
+ 2015.
+\newblock Texas Electricity Rates \& Consumption.
+\newblock \url{http://www.electricitylocal.com/states/texas/}.   (2015).
+\newblock
+\showURL{%
+\url{http://www.electricitylocal.com/states/texas/}}
+
+
+\bibitem[\protect\citeauthoryear{??}{gas}{2015}]%
+        {gasPrice}
+ 2015.
+\newblock United States Natural Gas Industrial Price.
+\newblock \url{https://www.eia.gov/dnav/ng/hist/n3035us3m.htm}.   (2015).
+\newblock
+\showURL{%
+\url{https://www.eia.gov/dnav/ng/hist/n3035us3m.htm}}
+
+
+\bibitem[\protect\citeauthoryear{Abdmouleh, Alammari, and Gastli}{Abdmouleh
+  et~al\mbox{.}}{2015}]%
+        {abdmouleh2015review}
+{Zeineb Abdmouleh}, {Rashid~AM Alammari}, {and} {Adel Gastli}. 2015.
+\newblock \showarticletitle{Review of policies encouraging renewable energy
+  integration \& best practices}.
+\newblock {\em Renewable and Sustainable Energy Reviews\/}  {45} (2015),
+  249--262.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Aksanli, Venkatesh, Zhang, and Rosing}{Aksanli
+  et~al\mbox{.}}{2012}]%
+        {aksanli2012utilizing}
+{Baris Aksanli}, {Jagannathan Venkatesh}, {Liuyi Zhang}, {and} {Tajana Rosing}.
+  2012.
+\newblock \showarticletitle{Utilizing green energy prediction to schedule mixed
+  batch and service jobs in data centers}.
+\newblock {\em ACM SIGOPS Operating Systems Review\/} {45}, 3 (2012), 53--57.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Andrews, Anta, Zhang, and Zhao}{Andrews
+  et~al\mbox{.}}{2012}]%
+        {andrews2012routing}
+{Matthew Andrews}, {Antonio~Fern{\'a}ndez Anta}, {Lisa Zhang}, {and} {Wenbo
+  Zhao}. 2012.
+\newblock \showarticletitle{Routing for power minimization in the speed scaling
+  model}.
+\newblock {\em IEEE/ACM Transactions on Networking (TON)\/} {20}, 1 (2012),
+  285--294.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Arlitt, Bash, Blagodurov, Chen, Christian,
+  Gmach, Hyser, Kumari, Liu, Marwah, et~al\mbox{.}}{Arlitt
+  et~al\mbox{.}}{2012}]%
+        {arlitt2012towards}
+{Martin Arlitt}, {Cullen Bash}, {Sergey Blagodurov}, {Yuan Chen}, {Tom
+  Christian}, {Daniel Gmach}, {Chris Hyser}, {Niru Kumari}, {Zhenhua Liu},
+  {Manish Marwah}, {and} {others}. 2012.
+\newblock \showarticletitle{Towards the design and operation of net-zero energy
+  data centers}. In {\em Thermal and Thermomechanical Phenomena in Electronic
+  Systems (ITherm), 2012 13th IEEE Intersociety Conference on}. IEEE, 552--561.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Barroso, Clidaras, and H{\"o}lzle}{Barroso
+  et~al\mbox{.}}{2013}]%
+        {barroso2013datacenter}
+{Luiz~Andr{\'e} Barroso}, {Jimmy Clidaras}, {and} {Urs H{\"o}lzle}. 2013.
+\newblock \showarticletitle{The datacenter as a computer: An introduction to
+  the design of warehouse-scale machines}.
+\newblock {\em Synthesis lectures on computer architecture\/} {8}, 3 (2013),
+  1--154.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{{cleantechnica}}{{cleantechnica}}{}]%
+        {solarCost}
+{{cleantechnica}}.
+\newblock {Solar Costs Will Fall Another 40\% In 2 Years. Here's Why.}
+\newblock
+  http://cleantechnica.com/2015/01/29/solar-costs-will-fall-40-next-2-years-heres/.
+    (????).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{EIA}{EIA}{2016}]%
+        {eiaElectricityPrices}
+{EIA}. 2016.
+\newblock Electricity.
+\newblock \url{https://www.eia.gov/forecasts/steo/report/electricity.cfm}.
+  (2016).
+\newblock
+\showURL{%
+\url{https://www.eia.gov/forecasts/steo/report/electricity.cfm}}
+
+
+\bibitem[\protect\citeauthoryear{Facts}{Facts}{2005}]%
+        {facts2005greenhouse}
+{Emission Facts}. 2005.
+\newblock \showarticletitle{Greenhouse gas emissions from a typical passenger
+  vehicle}.
+\newblock {\em Environmental Protection Agency Office of Transportation and Air
+  Quality\/} (2005).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Garg, Gopalaiyengar, and Buyya}{Garg
+  et~al\mbox{.}}{2011}]%
+        {garg2011sla}
+{Saurabh~Kumar Garg}, {Srinivasa~K Gopalaiyengar}, {and} {Rajkumar Buyya}.
+  2011.
+\newblock \showarticletitle{{SLA}-based resource provisioning for heterogeneous
+  workloads in a virtualized cloud datacenter}.
+\newblock In {\em Algorithms and Architectures for Parallel Processing}.
+  Springer, 371--384.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Grant, Boyd, and Ye}{Grant
+  et~al\mbox{.}}{2008}]%
+        {grant2008cvx}
+{Michael Grant}, {Stephen Boyd}, {and} {Yinyu Ye}. 2008.
+\newblock CVX: Matlab software for disciplined convex programming.
+\newblock   (2008).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Koomey}{Koomey}{2008}]%
+        {koomey2008worldwide}
+{Jonathan~G Koomey}. 2008.
+\newblock \showarticletitle{Worldwide electricity used in data centers}.
+\newblock {\em Environmental Research Letters\/} {3}, 3 (2008), 034008.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lin, Wierman, Andrew, and Thereska}{Lin
+  et~al\mbox{.}}{2011}]%
+        {lin2011dynamic}
+{M. Lin}, {A. Wierman}, {L.L.H. Andrew}, {and} {E. Thereska}. 2011.
+\newblock \showarticletitle{Dynamic right-sizing for power-proportional data
+  centers}. In {\em Proc. of INFOCOM}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Liu, Chen, Bash, Wierman, Gmach, Wang, Marwah,
+  and Hyser}{Liu et~al\mbox{.}}{2012}]%
+        {liu2012renewable}
+{Zhenhua Liu}, {Yuan Chen}, {Cullen Bash}, {Adam Wierman}, {Daniel Gmach},
+  {Zhikui Wang}, {Manish Marwah}, {and} {Chris Hyser}. 2012.
+\newblock \showarticletitle{Renewable and cooling aware workload management for
+  sustainable data centers}. In {\em ACM SIGMETRICS Performance Evaluation
+  Review}, Vol.~40. ACM, 175--186.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Liu, Lin, Wierman, Low, and Andrew}{Liu
+  et~al\mbox{.}}{2011}]%
+        {liu2011greening}
+{Zhenhua Liu}, {Minghong Lin}, {Adam Wierman}, {Steven~H Low}, {and}
+  {Lachlan~LH Andrew}. 2011.
+\newblock \showarticletitle{Greening geographical load balancing}. In {\em
+  Proceedings of the ACM SIGMETRICS joint international conference on
+  Measurement and modeling of computer systems}. ACM, 233--244.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Liu, Wierman, Chen, Razon, and Chen}{Liu
+  et~al\mbox{.}}{2013}]%
+        {liu2013data}
+{Zhenhua Liu}, {Adam Wierman}, {Yuan Chen}, {Benjamin Razon}, {and} {Niangjun
+  Chen}. 2013.
+\newblock \showarticletitle{Data center demand response: Avoiding the
+  coincident peak via workload shifting and local generation}.
+\newblock {\em Performance Evaluation\/} {70}, 10 (2013), 770--791.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mukherjee, Banerjee, Varsamopoulos, Gupta, and
+  Rungta}{Mukherjee et~al\mbox{.}}{2009}]%
+        {mukherjee2009spatio}
+{Tridib Mukherjee}, {Ayan Banerjee}, {Georgios Varsamopoulos}, {Sandeep~KS
+  Gupta}, {and} {Sanjay Rungta}. 2009.
+\newblock \showarticletitle{Spatio-temporal thermal-aware job scheduling to
+  minimize energy consumption in virtualized heterogeneous data centers}.
+\newblock {\em Computer Networks\/} {53}, 17 (2009), 2888--2904.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Pakbaznia and Pedram}{Pakbaznia and
+  Pedram}{2009}]%
+        {pakbaznia2009minimizing}
+{Ehsan Pakbaznia} {and} {Massoud Pedram}. 2009.
+\newblock \showarticletitle{Minimizing data center cooling and server power
+  costs}. In {\em Proceedings of the 2009 ACM/IEEE international symposium on
+  Low power electronics and design}. ACM, 145--150.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Qureshi, Weber, Balakrishnan, Guttag, and
+  Maggs}{Qureshi et~al\mbox{.}}{2009}]%
+        {qureshi2009cutting}
+{A. Qureshi}, {R. Weber}, {H. Balakrishnan}, {J. Guttag}, {and} {B. Maggs}.
+  2009.
+\newblock \showarticletitle{Cutting the electric bill for internet-scale
+  systems}. In {\em Proc. of ACM Sigcomm}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Rana}{Rana}{2009}]%
+        {Rana2010DataCenterInvestment}
+{Vidhan Rana}. 2009.
+\newblock The World of Data Centers.
+\newblock \url{http://whittakerassociates.com/the-world-of-data-centers/}.
+  (2009).
+\newblock
+\showURL{%
+\url{http://whittakerassociates.com/the-world-of-data-centers/}}
+
+
+\bibitem[\protect\citeauthoryear{Ren, Wang, Urgaonkar, and Sivasubramaniam}{Ren
+  et~al\mbox{.}}{2012}]%
+        {ren2012carbon}
+{C. Ren}, {D. Wang}, {B. Urgaonkar}, {and} {A. Sivasubramaniam}. 2012.
+\newblock \showarticletitle{Carbon-Aware Energy Capacity Planning for
+  Datacenters}. In {\em MASCOTS}. IEEE, 391--400.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Revelle}{Revelle}{2009}]%
+        {revelle2009cap}
+{Eleanor Revelle}. 2009.
+\newblock \showarticletitle{CAP-AND-TRADE VERSUS CARBON TAX TWO APPROACHES TO
+  CURBING GREENHOUSE GAS EMISSIONS}.
+\newblock {\em League of women voters of the United States: Climate change task
+  force\/} (2009).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Shahan}{Shahan}{2011}]%
+        {Shahan2011ToUTexas}
+{Zachary Shahan}. 2011.
+\newblock Time of Day Pricing in {Texas}.
+\newblock
+  \url{http://cleantechnica.com/2011/12/27/time-of-day-pricing-in-texas/}.
+  (2011).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Smith}{Smith}{2011}]%
+        {ToURates}
+{Dan Smith}. 2011.
+\newblock {TXU} Energy Offers Deep Nighttime Discounts for Electricity.
+\newblock
+  \url{http://www.businesswire.com/news/home/20111117005294/en/TXU-Energy-Offers-Deep-Nighttime-Discounts-Electricity}.
+    (2011).
+\newblock
+\showURL{%
+\url{http://www.businesswire.com/news/home/20111117005294/en/TXU-Energy-Offers-Deep-Nighttime-Discounts-Electricity}}
+
+
+\bibitem[\protect\citeauthoryear{Stavins}{Stavins}{2003}]%
+        {stavins2003experience}
+{Robert~N Stavins}. 2003.
+\newblock \showarticletitle{Experience with market-based environmental policy
+  instruments}.
+\newblock {\em Handbook of environmental economics\/}  {1} (2003), 355--435.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sverdlik}{Sverdlik}{2015}]%
+        {sverdlik2015BillionsInDataCenter}
+{Yevgeniy Sverdlik}. 2015.
+\newblock The Billions in Data Center Spending behind Cloud Revenue Growth.
+\newblock \url{http://www.datacenterknowledge.com/}.   (2015).
+\newblock
+\showURL{%
+\url{http://www.datacenterknowledge.com/}}
+
+
+\bibitem[\protect\citeauthoryear{Urgaonkar, Pacifici, Shenoy, Spreitzer, and
+  Tantawi}{Urgaonkar et~al\mbox{.}}{2005}]%
+        {urgaonkar2005analytical}
+{B. Urgaonkar}, {G. Pacifici}, {P. Shenoy}, {M. Spreitzer}, {and} {A. Tantawi}.
+  2005.
+\newblock \showarticletitle{An analytical model for multi-tier internet
+  services and its applications}. In {\em Proc. of ACM Sigmetrics}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Urgaonkar, Urgaonkar, Neely, and
+  Sivasubramaniam}{Urgaonkar et~al\mbox{.}}{2011}]%
+        {urgaonkar2011optimal}
+{R. Urgaonkar}, {B. Urgaonkar}, {M.J. Neely}, {and} {A. Sivasubramaniam}. 2011.
+\newblock \showarticletitle{Optimal power cost management using stored energy
+  in data centers}. In {\em Proc. of the ACM Sigmetrics}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Weihl, Teetzel, Clidaras, Malone, Kava, and
+  Ryan}{Weihl et~al\mbox{.}}{2011}]%
+        {weihl2011sustainable}
+{Bill Weihl}, {Erik Teetzel}, {Jimmy Clidaras}, {Chris Malone}, {Joe Kava},
+  {and} {Michael Ryan}. 2011.
+\newblock \showarticletitle{Sustainable data centers}.
+\newblock {\em XRDS: Crossroads, The ACM Magazine for Students\/} {17}, 4
+  (2011), 8--12.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wierman, Liu, Liu, and Mohsenian-Rad}{Wierman
+  et~al\mbox{.}}{2014}]%
+        {wierman2014opportunities}
+{Adam Wierman}, {Zhenhua Liu}, {Iris Liu}, {and} {Hamed Mohsenian-Rad}. 2014.
+\newblock \showarticletitle{Opportunities and challenges for data center demand
+  response}. In {\em Green Computing Conference (IGCC), 2014 International}.
+  IEEE, 1--10.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zhang, Zhani, Zhu, Zhang, Boutaba, and
+  Hellerstein}{Zhang et~al\mbox{.}}{2012}]%
+        {zhang2012dynamic}
+{Q. Zhang}, {M.F. Zhani}, {Q. Zhu}, {S. Zhang}, {R. Boutaba}, {and} {J.
+  Hellerstein}. 2012.
+\newblock \showarticletitle{Dynamic Energy-Aware Capacity Provisioning for
+  Cloud Computing Environments}. In {\em ICAC}.
+\newblock
+
+
+\end{thebibliography}

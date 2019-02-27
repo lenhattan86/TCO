@@ -1,0 +1,237 @@
+\begin{thebibliography}{10}
+
+\bibitem{CarbonFootprints2009}
+Carbon footprints of servers can vary by 10x.
+\newblock
+  \url{http://www.vertatique.com/carbon-footprints-servers-can-vary-10x}, 2009.
+
+\bibitem{hpEcoPODs}
+It efficiency races forward in {eBay} inc.'s data centers with {HP} {EcoPODs}.
+\newblock Technical report, HP, May 2014.
+
+\bibitem{electricityRateTexas}
+Texas electricity rates \& consumption.
+\newblock \url{http://www.electricitylocal.com/states/texas/}, 2015.
+
+\bibitem{gasPrice}
+United states natural gas industrial price.
+\newblock \url{https://www.eia.gov/dnav/ng/hist/n3035us3m.htm}, 2015.
+
+\bibitem{abdmouleh2015review}
+Z.~Abdmouleh, R.~A. Alammari, and A.~Gastli.
+\newblock Review of policies encouraging renewable energy integration \& best
+  practices.
+\newblock {\em Renewable and Sustainable Energy Reviews}, 45:249--262, 2015.
+
+\bibitem{aksanli2012utilizing}
+B.~Aksanli, J.~Venkatesh, L.~Zhang, and T.~Rosing.
+\newblock Utilizing green energy prediction to schedule mixed batch and service
+  jobs in data centers.
+\newblock {\em ACM SIGOPS Operating Systems Review}, 45(3):53--57, 2012.
+
+\bibitem{andrews2012routing}
+M.~Andrews, A.~F. Anta, L.~Zhang, and W.~Zhao.
+\newblock Routing for power minimization in the speed scaling model.
+\newblock {\em IEEE/ACM Transactions on Networking (TON)}, 20(1):285--294,
+  2012.
+
+\bibitem{arlitt2012towards}
+M.~Arlitt, C.~Bash, S.~Blagodurov, Y.~Chen, T.~Christian, D.~Gmach, C.~Hyser,
+  N.~Kumari, Z.~Liu, M.~Marwah, et~al.
+\newblock Towards the design and operation of net-zero energy data centers.
+\newblock In {\em Thermal and Thermomechanical Phenomena in Electronic Systems
+  (ITherm), 2012 13th IEEE Intersociety Conference on}, pages 552--561. IEEE,
+  2012.
+
+\bibitem{barroso2013datacenter}
+L.~A. Barroso, J.~Clidaras, and U.~H{\"o}lzle.
+\newblock The datacenter as a computer: An introduction to the design of
+  warehouse-scale machines.
+\newblock {\em Synthesis lectures on computer architecture}, 8(3):1--154, 2013.
+
+\bibitem{solarCost}
+{cleantechnica}.
+\newblock {Solar Costs Will Fall Another 40\% In 2 Years. Here's Why.}
+\newblock
+  http://cleantechnica.com/2015/01/29/solar-costs-will-fall-40-next-2-years-heres/.
+
+\bibitem{eiaElectricityPrices}
+EIA.
+\newblock Electricity.
+\newblock \url{https://www.eia.gov/forecasts/steo/report/electricity.cfm},
+  2016.
+
+\bibitem{facts2005greenhouse}
+E.~Facts.
+\newblock Greenhouse gas emissions from a typical passenger vehicle.
+\newblock {\em Environmental Protection Agency Office of Transportation and Air
+  Quality}, 2005.
+
+\bibitem{garg2011sla}
+S.~K. Garg, S.~K. Gopalaiyengar, and R.~Buyya.
+\newblock {SLA}-based resource provisioning for heterogeneous workloads in a
+  virtualized cloud datacenter.
+\newblock In {\em Algorithms and Architectures for Parallel Processing}, pages
+  371--384. Springer, 2011.
+
+\bibitem{grant2008cvx}
+M.~Grant, S.~Boyd, and Y.~Ye.
+\newblock Cvx: Matlab software for disciplined convex programming, 2008.
+
+\bibitem{koomey2008worldwide}
+J.~G. Koomey.
+\newblock Worldwide electricity used in data centers.
+\newblock {\em Environmental Research Letters}, 3(3):034008, 2008.
+
+\bibitem{lin2011dynamic}
+M.~Lin, A.~Wierman, L.~Andrew, and E.~Thereska.
+\newblock Dynamic right-sizing for power-proportional data centers.
+\newblock In {\em Proc. of INFOCOM}, 2011.
+
+\bibitem{lin2011online}
+M.~Lin, A.~Wierman, L.~L. Andrew, and E.~Thereska.
+\newblock Online dynamic capacity provisioning in data centers.
+\newblock In {\em Communication, Control, and Computing (Allerton), 2011 49th
+  Annual Allerton Conference on}, pages 1159--1163. IEEE, 2011.
+
+\bibitem{lin2013dynamic}
+M.~Lin, A.~Wierman, L.~L. Andrew, and E.~Thereska.
+\newblock Dynamic right-sizing for power-proportional data centers.
+\newblock {\em IEEE/ACM Transactions on Networking (TON)}, 21(5):1378--1391,
+  2013.
+
+\bibitem{liu2012renewable}
+Z.~Liu, Y.~Chen, C.~Bash, A.~Wierman, D.~Gmach, Z.~Wang, M.~Marwah, and
+  C.~Hyser.
+\newblock Renewable and cooling aware workload management for sustainable data
+  centers.
+\newblock In {\em ACM SIGMETRICS Performance Evaluation Review}, volume~40,
+  pages 175--186. ACM, 2012.
+
+\bibitem{liu2011greening}
+Z.~Liu, M.~Lin, A.~Wierman, S.~H. Low, and L.~L. Andrew.
+\newblock Greening geographical load balancing.
+\newblock In {\em Proceedings of the ACM SIGMETRICS joint international
+  conference on Measurement and modeling of computer systems}, pages 233--244.
+  ACM, 2011.
+
+\bibitem{liu2014pricing}
+Z.~Liu, I.~Liu, S.~Low, and A.~Wierman.
+\newblock Pricing data center demand response.
+\newblock In {\em The 2014 ACM international conference on Measurement and
+  modeling of computer systems}, pages 111--123. ACM, 2014.
+
+\bibitem{liu2013data}
+Z.~Liu, A.~Wierman, Y.~Chen, B.~Razon, and N.~Chen.
+\newblock Data center demand response: Avoiding the coincident peak via
+  workload shifting and local generation.
+\newblock {\em Performance Evaluation}, 70(10):770--791, 2013.
+
+\bibitem{mukherjee2009spatio}
+T.~Mukherjee, A.~Banerjee, G.~Varsamopoulos, S.~K. Gupta, and S.~Rungta.
+\newblock Spatio-temporal thermal-aware job scheduling to minimize energy
+  consumption in virtualized heterogeneous data centers.
+\newblock {\em Computer Networks}, 53(17):2888--2904, 2009.
+
+\bibitem{pakbaznia2009minimizing}
+E.~Pakbaznia and M.~Pedram.
+\newblock Minimizing data center cooling and server power costs.
+\newblock In {\em Proceedings of the 2009 ACM/IEEE international symposium on
+  Low power electronics and design}, pages 145--150. ACM, 2009.
+
+\bibitem{qureshi2009cutting}
+A.~Qureshi, R.~Weber, H.~Balakrishnan, J.~Guttag, and B.~Maggs.
+\newblock Cutting the electric bill for internet-scale systems.
+\newblock In {\em Proc. of ACM Sigcomm}, 2009.
+
+\bibitem{Rana2010DataCenterInvestment}
+V.~Rana.
+\newblock The world of data centers.
+\newblock \url{http://whittakerassociates.com/the-world-of-data-centers/},
+  2009.
+
+\bibitem{ren2012carbon}
+C.~Ren, D.~Wang, B.~Urgaonkar, and A.~Sivasubramaniam.
+\newblock Carbon-aware energy capacity planning for datacenters.
+\newblock In {\em MASCOTS}, pages 391--400. IEEE, 2012.
+
+\bibitem{revelle2009cap}
+E.~Revelle.
+\newblock Cap-and-trade versus carbon tax two approaches to curbing greenhouse
+  gas emissions.
+\newblock {\em League of women voters of the United States: Climate change task
+  force}, 2009.
+
+\bibitem{Shahan2011ToUTexas}
+Z.~Shahan.
+\newblock Time of day pricing in {Texas}.
+\newblock
+  \url{http://cleantechnica.com/2011/12/27/time-of-day-pricing-in-texas/},
+  2011.
+
+\bibitem{sharmashrink}
+A.~Sharma, X.~Tie, H.~Uppal, A.~Venkataramani, D.~Westbrook, A.~Yadav, A.~A.
+  Rocha, R.~Sitaraman, J.~Kurose, D.~Raychaudhuri, et~al.
+\newblock Shrink: A cluster manager for greening content datacenters.
+\newblock {\em Technical report}.
+
+\bibitem{ToURates}
+D.~Smith.
+\newblock {TXU} energy offers deep nighttime discounts for electricity.
+\newblock
+  \url{http://www.businesswire.com/news/home/20111117005294/en/TXU-Energy-Offers-Deep-Nighttime-Discounts-Electricity},
+  2011.
+
+\bibitem{stavins2003experience}
+R.~N. Stavins.
+\newblock Experience with market-based environmental policy instruments.
+\newblock {\em Handbook of environmental economics}, 1:355--435, 2003.
+
+\bibitem{sverdlik2015BillionsInDataCenter}
+Y.~Sverdlik.
+\newblock The billions in data center spending behind cloud revenue growth.
+\newblock \url{http://www.datacenterknowledge.com/}, 2015.
+
+\bibitem{urgaonkar2005analytical}
+B.~Urgaonkar, G.~Pacifici, P.~Shenoy, M.~Spreitzer, and A.~Tantawi.
+\newblock An analytical model for multi-tier internet services and its
+  applications.
+\newblock In {\em Proc. of ACM Sigmetrics}, 2005.
+
+\bibitem{urgaonkar2011optimal}
+R.~Urgaonkar, B.~Urgaonkar, M.~Neely, and A.~Sivasubramaniam.
+\newblock Optimal power cost management using stored energy in data centers.
+\newblock In {\em Proc. of the ACM Sigmetrics}, 2011.
+
+\bibitem{StevenGlobalTraffic}
+S.~J. Vaughan-Nichols.
+\newblock Cisco projects data center-cloud traffic to triple by 2017.
+\newblock
+  \url{http://www.zdnet.com/article/cisco-projects-data-center-cloud-traffic-to-triple-by-2017/},
+  2014.
+
+\bibitem{weihl2011sustainable}
+B.~Weihl, E.~Teetzel, J.~Clidaras, C.~Malone, J.~Kava, and M.~Ryan.
+\newblock Sustainable data centers.
+\newblock {\em XRDS: Crossroads, The ACM Magazine for Students}, 17(4):8--12,
+  2011.
+
+\bibitem{wierman2014opportunities}
+A.~Wierman, Z.~Liu, I.~Liu, and H.~Mohsenian-Rad.
+\newblock Opportunities and challenges for data center demand response.
+\newblock In {\em Green Computing Conference (IGCC), 2014 International}, pages
+  1--10. IEEE, 2014.
+
+\bibitem{zhang2010greente}
+M.~Zhang, C.~Yi, B.~Liu, and B.~Zhang.
+\newblock Greente: Power-aware traffic engineering.
+\newblock In {\em Network Protocols (ICNP), 2010 18th IEEE International
+  Conference on}, pages 21--30. IEEE, 2010.
+
+\bibitem{zhang2012dynamic}
+Q.~Zhang, M.~Zhani, Q.~Zhu, S.~Zhang, R.~Boutaba, and J.~Hellerstein.
+\newblock Dynamic energy-aware capacity provisioning for cloud computing
+  environments.
+\newblock In {\em ICAC}, 2012.
+
+\end{thebibliography}

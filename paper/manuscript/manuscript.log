@@ -1,0 +1,1618 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  15 MAY 2018 15:02
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**manuscript.tex
+(./manuscript.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(./sig-alternate-05-2015.cls
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count79
+))
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+\epsfxsize=\dimen104
+\epsfysize=\dimen105
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip41
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen106
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen107
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count80
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count81
+\leftroot@=\count82
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count83
+\DOTSCASE@=\count84
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count85
+\c@MaxMatrixCols=\count86
+\dotsspace@=\muskip10
+\c@parentequation=\count87
+\dspbrk@lvl=\count88
+\tag@help=\toks17
+\row@=\count89
+\column@=\count90
+\maxfields@=\count91
+\andhelp@=\toks18
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks19
+\multlinegap=\skip42
+\multlinetaggap=\skip43
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
+Document Class 'sig-alternate' <9th June '13>. Modified by G.K.M. Tobin/Gerry M
+urray/Boris Veytsman
+Based in part upon document Style `acmconf' <22 May 89>. Hacked 4/91 by
+shivers@cs.cmu.edu, 4/93 by theobald@cs.mcgill.ca
+Excerpts were taken from (Journal Style) 'esub2acm.cls'.
+****** Bugs/comments/suggestions/technicalities to Gerry Murray -- murray@hq.ac
+m.org ******
+Questions on the style, SIGS policies, etc. to Adrienne Griscti griscti@acm.org
+
+\ACM@basesize=\count92
+(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment') Excluding comment 'CCSXML'
+\footheight=\dimen115
+\@maxsep=\dimen116
+\@dblmaxsep=\dimen117
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+\aucount=\count93
+\originalaucount=\count94
+\auwidth=\dimen118
+\auskip=\dimen119
+\auskipcount=\count95
+\auskip=\dimen120
+\allauboxes=\dimen121
+\addauthors=\toks21
+\addauflag=\count96
+\subtitletext=\toks22
+\savesection=\count97
+\sectioncntr=\count98
+\c@figure=\count99
+\c@table=\count100
+\titleboxnotes=\toks23
+\titleboxnoteflag=\count101
+
+
+LaTeX Warning: You have requested document class `sig-alternate-05-2015',
+               but the document class provides `sig-alternate'.
+
+Document Class: sig-alternate 2013/05/12 v2.7 based on acmproc.cls V1.3 <Nov. 3
+0 '99>
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+\@acmtitlebox=\box28
+\titlenotecount=\count102
+\tntoks=\toks24
+\tntokstwo=\toks25
+\tntoksthree=\toks26
+\tntoksfour=\toks27
+\tntoksfive=\toks28
+\catcount=\count103
+\copyrightnotice=\toks29
+\conf=\toks30
+\confinfo=\toks31
+\c@part=\count104
+\c@section=\count105
+\c@subsection=\count106
+\c@subsubsection=\count107
+\c@paragraph=\count108
+
+Using 'Abbrev' bibliography style
+LaTeX Info: Redefining \cite on input line 1408.
+\bibindent=\dimen122
+\colcntr=\count109
+\saveb@x=\box29
+\copyrtyr=\toks32
+\acmcopyr=\toks33
+\boilerplate=\toks34
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (./acmcopyright.sty
+Package: acmcopyright 2014/06/29 v1.2 Copyright statemens for ACM classes
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks35
+\XKV@tempa@toks=\toks36
+)
+\XKV@depth=\count110
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+\copyrightetc=\toks37
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)
+LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/ae/t1aer.fd
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+))) (./lib/packages.tex
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks38
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count111
+\float@exts=\toks39
+\float@box=\box30
+\@float@everytoks=\toks40
+\@floatcapt=\box31
+)
+
+! LaTeX Error: Option clash for package epsfig.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \usepackage
+               {subfigure}
+The package epsfig has already been loaded with options:
+  []
+There has now been an attempt to load it with options
+  [dvips]
+Adding the global options:
+  ,dvips
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip44
+\subfigcapskip=\skip45
+\subfigcaptopadj=\dimen123
+\subfigbottomskip=\skip46
+\subfigcapmargin=\dimen124
+\subfiglabelskip=\skip47
+\c@subfigure=\count112
+\c@lofdepth=\count113
+\c@subtable=\count114
+\c@lotdepth=\count115
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip48
+\subfig@bottom=\skip49
+)
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup7
+)
+(/usr/share/texlive/texmf-dist/tex/latex/esint/esint.sty
+Package: esint 
+\symlargesymbolsA=\mathgroup8
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks41
+\verbatim@line=\toks42
+\verbatim@in@stream=\read1
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks43
+\pgfutil@tempdima=\dimen125
+\pgfutil@tempdimb=\dimen126
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box32
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks44
+\pgfkeys@temptoks=\toks45
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks46
+))
+\pgf@x=\dimen127
+\pgf@y=\dimen128
+\pgf@xa=\dimen129
+\pgf@ya=\dimen130
+\pgf@xb=\dimen131
+\pgf@yb=\dimen132
+\pgf@xc=\dimen133
+\pgf@yc=\dimen134
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count116
+\c@pgf@countb=\count117
+\c@pgf@countc=\count118
+\c@pgf@countd=\count119
+\t@pgf@toka=\toks47
+\t@pgf@tokb=\toks48
+\t@pgf@tokc=\toks49
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count120
+\pgfsyssoftpath@bigbuffer@items=\count121
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen135
+\pgfmath@count=\count122
+\pgfmath@box=\box33
+\pgfmath@toks=\toks50
+\pgfmath@stack@operand=\toks51
+\pgfmath@stack@operation=\toks52
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count123
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen136
+\pgf@picmaxx=\dimen137
+\pgf@picminy=\dimen138
+\pgf@picmaxy=\dimen139
+\pgf@pathminx=\dimen140
+\pgf@pathmaxx=\dimen141
+\pgf@pathminy=\dimen142
+\pgf@pathmaxy=\dimen143
+\pgf@xx=\dimen144
+\pgf@xy=\dimen145
+\pgf@yx=\dimen146
+\pgf@yy=\dimen147
+\pgf@zx=\dimen148
+\pgf@zy=\dimen149
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen150
+\pgf@path@lasty=\dimen151
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen152
+\pgf@shorten@start@additional=\dimen153
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box34
+\pgf@hbox=\box35
+\pgf@layerbox@main=\box36
+\pgf@picture@serial@count=\count124
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen154
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen155
+\pgf@pt@y=\dimen156
+\pgf@pt@temp=\dimen157
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen158
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen159
+\pgf@sys@shading@range@num=\count125
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box37
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box38
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen160
+\pgf@nodesepend=\dimen161
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen162
+\pgffor@skip=\dimen163
+\pgffor@stack=\toks53
+\pgffor@toks=\toks54
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count126
+\pgfplotmarksize=\dimen164
+)
+\tikz@lastx=\dimen165
+\tikz@lasty=\dimen166
+\tikz@lastxsaved=\dimen167
+\tikz@lastysaved=\dimen168
+\tikzleveldistance=\dimen169
+\tikzsiblingdistance=\dimen170
+\tikz@figbox=\box39
+\tikz@figbox@bg=\box40
+\tikz@tempbox=\box41
+\tikz@tempbox@bg=\box42
+\tikztreelevel=\count127
+\tikznumberofchildren=\count128
+\tikznumberofcurrentchild=\count129
+\tikz@fig@count=\count130
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count131
+\pgfmatrixcurrentcolumn=\count132
+\pgf@matrix@numberofcolumns=\count133
+)
+\tikz@expandcount=\count134
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/bbm-macros/bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/preprint/balance.sty
+Package: balance 1999/02/23 4.3 (PWD)
+\oldvsize=\dimen171
+)
+(/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks55
+\SOUL@lasttoken=\toks56
+\SOUL@cmds=\toks57
+\SOUL@buffer=\toks58
+\SOUL@token=\toks59
+\SOUL@spaceskip=\skip50
+\SOUL@ttwidth=\dimen172
+\SOUL@uldp=\dimen173
+\SOUL@ulht=\dimen174
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2014/10/28 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup9
+\symboldletters=\mathgroup10
+\symboldsymbols=\mathgroup11
+\symboldlasy=\mathgroup12
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen175
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))))
+(./lib/macros.tex) (./manuscript.aux
+
+LaTeX Warning: Label `tbl:decision' multiply defined.
+
+)
+\openout1 = `manuscript.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count135
+\scratchdimen=\dimen176
+\scratchbox=\box43
+\nofMPsegments=\count136
+\nofMParguments=\count137
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count138
+\MPscratchDim=\dimen177
+\MPnumerator=\count139
+\makeMPintoPDFobject=\count140
+\everyMPtoPDFconversion=\toks61
+) ABD: EveryShipout initializing macros
+LaTeX Font Info:    Try loading font information for U+msa on input line 145.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 145.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 145.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 145.
+
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Try loading font information for U+esint on input line 145.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
+File: uesint.fd 
+)
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 145.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 145.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 145.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 145.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 145.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 145.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 145.
+
+(./scripts/abstract.tex)
+Overfull \hbox (4.56975pt too wide) in paragraph at lines 199--200
+\T1/aer/m/n/9 Sustainable data cen-ters; ca-pac-ity plan-ning; op-er-a-tional m
+an-
+ []
+
+(./scripts/intro.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]) (./scripts/background.tex
+[2]
+Overfull \hbox (4.59671pt too wide) in paragraph at lines 21--22
+\T1/aer/m/n/9 This can sig-nif-i-cantly in-crease the server uti-liza-tion and 
+there-
+ []
+
+) (./scripts/optimization.tex [3]
+! Undefined control sequence.
+l.60 	\tbl
+          {The description of important notations in year $y$. \label{tbl:in...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (5.663pt too wide) in paragraph at lines 95--96
+[][]| 
+ []
+
+
+Underfull \hbox (badness 5388) in paragraph at lines 60--101
+[]\T1/aer/m/n/9 The de-scrip-tion of im-por-tant no-ta-tions in year $\OML/cmm/
+m/it/9 y$\T1/aer/m/n/9 .
+ []
+
+! Undefined control sequence.
+l.119 	\tbl
+           {Summary of objective components.\label{tbl:decision}}{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (2.08342pt too wide) in paragraph at lines 123--123
+[]\T1/aer/m/it/9 UtilBill| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--141
+[]\T1/aer/m/n/9 Summary of ob-jec-tive com-po-nents.[]
+ []
+
+
+Overfull \hbox (3.53154pt too wide) in paragraph at lines 119--141
+[] 
+ []
+
+[4]
+! Undefined control sequence.
+l.152 	\tbl
+           {Summary of decision variables in year $y$.	\label{tbl:decision}}{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (1.57074pt too wide) in paragraph at lines 155--155
+[]\T1/aer/m/n/9 Symbol| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+[]\T1/aer/m/n/9 Capacity
+ []
+
+
+Overfull \hbox (5.32585pt too wide) in paragraph at lines 160--160
+[]\T1/aer/m/n/9 Operational
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+\T1/aer/m/n/9 man-age-
+ []
+
+
+Overfull \hbox (1.18694pt too wide) in paragraph at lines 160--160
+[]$\OML/cmm/m/it/9 c[]\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 y; t\OT1/cmr/m/n/9 )$| 
+ []
+
+
+Overfull \hbox (1.3536pt too wide) in paragraph at lines 161--161
+[]$\OML/cmm/m/it/9 c[]\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 y; t\OT1/cmr/m/n/9 )$| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--165
+[]\T1/aer/m/n/9 Summary of de-ci-sion vari-ables in year $\OML/cmm/m/it/9 y$\T1
+/aer/m/n/9 .
+ []
+
+
+Overfull \hbox (1.15175pt too wide) in paragraph at lines 173--174
+[]\T1/aer/m/it/9 Operational man-age-ment vari-ables \T1/aer/m/n/9 de-cide (i) 
+how much
+ []
+
+
+Overfull \hbox (3.39429pt too wide) in paragraph at lines 185--185
+[] 
+ []
+
+) (./scripts/evaluation.tex
+Overfull \hbox (15.944pt too wide) in paragraph at lines 1--1
+[]\secfnt EMPIRICAL EVAL-U-A-TION FOR SUS-TAIN-
+ []
+
+
+Overfull \hbox (21.5711pt too wide) in paragraph at lines 18--19
+[]\T1/aer/m/it/9 Electrical grid: \T1/aer/m/n/9 The base elec-tric-ity price is
+ fixed at $0.056/kWh
+ []
+
+(./scripts/sustainable_dc.tex
+Package epstopdf Info: Source file: <figs/long_term_capacity.eps>
+(epstopdf)                    date: 2016-05-29 17:12:38
+(epstopdf)                    size: 22240 bytes
+(epstopdf)             Output file: <figs/long_term_capacity-eps-converted-to.p
+df>
+(epstopdf)                    date: 2016-06-30 08:13:00
+(epstopdf)                    size: 3731 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/long_term_capacity-ep
+s-converted-to.pdf figs/long_term_capacity.eps>
+(epstopdf)             \includegraphics on input line 19.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/long_term_capacity-eps-converted-to.pdf, id=35, 262.9825pt x 234.8775pt>
+File: figs/long_term_capacity-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/long_term_capacity-eps-converted-to.pdf>
+Package pdftex.def Info: figs/long_term_capacity-eps-converted-to.pdf used on i
+nput line 19.
+(pdftex.def)             Requested size: 76.80176pt x 68.59297pt.
+Package epstopdf Info: Source file: <figs/long_term_cost.eps>
+(epstopdf)                    date: 2016-05-29 17:12:38
+(epstopdf)                    size: 89583 bytes
+(epstopdf)             Output file: <figs/long_term_cost-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-30 08:13:00
+(epstopdf)                    size: 4849 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/long_term_cost-eps-co
+nverted-to.pdf figs/long_term_cost.eps>
+(epstopdf)             \includegraphics on input line 19.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/long_term_cost-eps-converted-to.pdf, id=36, 258.9675pt x 249.93375pt>
+File: figs/long_term_cost-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/long_term_cost-eps-converted-to.pdf>
+Package pdftex.def Info: figs/long_term_cost-eps-converted-to.pdf used on input
+ line 19.
+(pdftex.def)             Requested size: 76.80176pt x 74.12262pt.
+Package epstopdf Info: Source file: <figs/long_term_co2_norm.eps>
+(epstopdf)                    date: 2016-05-29 17:12:40
+(epstopdf)                    size: 17128 bytes
+(epstopdf)             Output file: <figs/long_term_co2_norm-eps-converted-to.p
+df>
+(epstopdf)                    date: 2016-06-30 08:13:02
+(epstopdf)                    size: 3379 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/long_term_co2_norm-ep
+s-converted-to.pdf figs/long_term_co2_norm.eps>
+(epstopdf)             \includegraphics on input line 19.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/long_term_co2_norm-eps-converted-to.pdf, id=37, 261.97874pt x 234.8775pt>
+File: figs/long_term_co2_norm-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/long_term_co2_norm-eps-converted-to.pdf>
+Package pdftex.def Info: figs/long_term_co2_norm-eps-converted-to.pdf used on i
+nput line 19.
+(pdftex.def)             Requested size: 76.80176pt x 68.8546pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[]\T1/aer/m/n/9 (c) Nor-mal-ized
+ []
+
+[5]
+Package epstopdf Info: Source file: <figs/nz-grid_year.eps>
+(epstopdf)                    date: 2016-05-12 11:01:40
+(epstopdf)                    size: 257456 bytes
+(epstopdf)             Output file: <figs/nz-grid_year-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-30 08:13:04
+(epstopdf)                    size: 12315 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/nz-grid_year-eps-conv
+erted-to.pdf figs/nz-grid_year.eps>
+(epstopdf)             \includegraphics on input line 49.
+Package epstopdf Info: Output file is already uptodate.
+ <figs/nz-grid_year-eps-converted-to.pdf, id=42, 263.98625pt x 234.8775pt>
+File: figs/nz-grid_year-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/nz-grid_year-eps-converted-to.pdf>
+Package pdftex.def Info: figs/nz-grid_year-eps-converted-to.pdf used on input l
+ine 49.
+(pdftex.def)             Requested size: 76.80176pt x 68.33134pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]\T1/aer/m/n/9 (a) Grid-only
+ []
+
+Package epstopdf Info: Source file: <figs/nz-supply_year.eps>
+(epstopdf)                    date: 2016-02-12 05:52:06
+(epstopdf)                    size: 267281 bytes
+(epstopdf)             Output file: <figs/nz-supply_year-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-30 08:13:04
+(epstopdf)                    size: 14810 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/nz-supply_year-eps-co
+nverted-to.pdf figs/nz-supply_year.eps>
+(epstopdf)             \includegraphics on input line 49.
+Package epstopdf Info: Output file is already uptodate.
+<figs/nz-supply_year-eps-converted-to.pdf, id=43, 263.98625pt x 234.8775pt>
+File: figs/nz-supply_year-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/nz-supply_year-eps-converted-to.pdf>
+Package pdftex.def Info: figs/nz-supply_year-eps-converted-to.pdf used on input
+ line 49.
+(pdftex.def)             Requested size: 76.80176pt x 68.33134pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]\T1/aer/m/n/9 (b) Supply-only
+ []
+
+Package epstopdf Info: Source file: <figs/nz-demand_year.eps>
+(epstopdf)                    date: 2016-02-12 05:52:20
+(epstopdf)                    size: 271317 bytes
+(epstopdf)             Output file: <figs/nz-demand_year-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-30 08:13:06
+(epstopdf)                    size: 15553 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/nz-demand_year-eps-co
+nverted-to.pdf figs/nz-demand_year.eps>
+(epstopdf)             \includegraphics on input line 49.
+Package epstopdf Info: Output file is already uptodate.
+<figs/nz-demand_year-eps-converted-to.pdf, id=44, 263.98625pt x 234.8775pt>
+File: figs/nz-demand_year-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/nz-demand_year-eps-converted-to.pdf>
+Package pdftex.def Info: figs/nz-demand_year-eps-converted-to.pdf used on input
+ line 49.
+(pdftex.def)             Requested size: 76.80176pt x 68.33134pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]\T1/aer/m/n/9 (c) Demand-only
+ []
+
+Package epstopdf Info: Source file: <figs/nz-int_year.eps>
+(epstopdf)                    date: 2016-02-12 05:52:36
+(epstopdf)                    size: 267114 bytes
+(epstopdf)             Output file: <figs/nz-int_year-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-30 08:13:08
+(epstopdf)                    size: 13746 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/nz-int_year-eps-conve
+rted-to.pdf figs/nz-int_year.eps>
+(epstopdf)             \includegraphics on input line 49.
+Package epstopdf Info: Output file is already uptodate.
+<figs/nz-int_year-eps-converted-to.pdf, id=45, 263.98625pt x 234.8775pt>
+File: figs/nz-int_year-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/nz-int_year-eps-converted-to.pdf>
+Package pdftex.def Info: figs/nz-int_year-eps-converted-to.pdf used on input li
+ne 49.
+(pdftex.def)             Requested size: 76.80176pt x 68.33134pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]\T1/aer/m/n/9 (d) Pro-posed
+ []
+
+
+Overfull \hbox (10.59859pt too wide) in paragraph at lines 56--58
+[]\T1/aer/m/n/9 Supply-only (SUP): Given the power de-mand, the supply-
+ []
+
+
+Overfull \hbox (1.17603pt too wide) in paragraph at lines 59--61
+\T1/aer/m/n/9 demand-only method op-ti-mizes the power de-mand, i.e.,
+ []
+
+Package epstopdf Info: Source file: <figs/cost_comparison.eps>
+(epstopdf)                    date: 2016-05-29 17:12:36
+(epstopdf)                    size: 84323 bytes
+(epstopdf)             Output file: <figs/cost_comparison-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2016-06-30 08:13:08
+(epstopdf)                    size: 4619 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/cost_comparison-eps-c
+onverted-to.pdf figs/cost_comparison.eps>
+(epstopdf)             \includegraphics on input line 84.
+Package epstopdf Info: Output file is already uptodate.
+<figs/cost_comparison-eps-converted-to.pdf, id=46, 262.9825pt x 245.91875pt>
+File: figs/cost_comparison-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/cost_comparison-eps-converted-to.pdf>
+Package pdftex.def Info: figs/cost_comparison-eps-converted-to.pdf used on inpu
+t line 84.
+(pdftex.def)             Requested size: 76.80176pt x 71.81743pt.
+Package epstopdf Info: Source file: <figs/emission_comparison.eps>
+(epstopdf)                    date: 2016-05-29 17:12:36
+(epstopdf)                    size: 81482 bytes
+(epstopdf)             Output file: <figs/emission_comparison-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2016-06-30 08:13:10
+(epstopdf)                    size: 4460 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/emission_comparison-e
+ps-converted-to.pdf figs/emission_comparison.eps>
+(epstopdf)             \includegraphics on input line 84.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/emission_comparison-eps-converted-to.pdf, id=47, 262.9825pt x 245.91875pt
+>
+File: figs/emission_comparison-eps-converted-to.pdf Graphic file (type pdf)
+ <use figs/emission_comparison-eps-converted-to.pdf>
+Package pdftex.def Info: figs/emission_comparison-eps-converted-to.pdf used on 
+input line 84.
+(pdftex.def)             Requested size: 76.80176pt x 71.81743pt.
+)
+(./scripts/prediction_errors.tex [6 <./figs/long_term_capacity-eps-converted-to
+.pdf> <./figs/long_term_cost-eps-converted-to.pdf> <./figs/long_term_co2_norm-e
+ps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figs/cost_err_comparison.eps>
+(epstopdf)                    date: 2016-05-29 17:12:32
+(epstopdf)                    size: 89698 bytes
+(epstopdf)             Output file: <figs/cost_err_comparison-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2016-06-30 08:13:12
+(epstopdf)                    size: 5917 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/cost_err_comparison-e
+ps-converted-to.pdf figs/cost_err_comparison.eps>
+(epstopdf)             \includegraphics on input line 27.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/cost_err_comparison-eps-converted-to.pdf, id=64, 264.99pt x 249.93375pt>
+File: figs/cost_err_comparison-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/cost_err_comparison-eps-converted-to.pdf>
+Package pdftex.def Info: figs/cost_err_comparison-eps-converted-to.pdf used on 
+input line 27.
+(pdftex.def)             Requested size: 76.80176pt x 72.43697pt.
+Package epstopdf Info: Source file: <figs/emission_err_comparison.eps>
+(epstopdf)                    date: 2016-05-29 17:12:32
+(epstopdf)                    size: 89027 bytes
+(epstopdf)             Output file: <figs/emission_err_comparison-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2016-06-30 08:13:12
+(epstopdf)                    size: 5923 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/emission_err_comparis
+on-eps-converted-to.pdf figs/emission_err_comparison.eps>
+(epstopdf)             \includegraphics on input line 27.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/emission_err_comparison-eps-converted-to.pdf, id=65, 264.99pt x 249.93375
+pt>
+File: figs/emission_err_comparison-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use figs/emission_err_comparison-eps-converted-to.pdf>
+Package pdftex.def Info: figs/emission_err_comparison-eps-converted-to.pdf used
+ on input line 27.
+(pdftex.def)             Requested size: 76.80176pt x 72.43697pt.
+)
+(./scripts/off_grid_dc.tex
+Package epstopdf Info: Source file: <figs/capacity_electricity.eps>
+(epstopdf)                    date: 2016-05-29 17:12:58
+(epstopdf)                    size: 17682 bytes
+(epstopdf)             Output file: <figs/capacity_electricity-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2016-06-30 08:13:14
+(epstopdf)                    size: 3744 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/capacity_electricity-
+eps-converted-to.pdf figs/capacity_electricity.eps>
+(epstopdf)             \includegraphics on input line 27.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/capacity_electricity-eps-converted-to.pdf, id=66, 268.00125pt x 234.8775p
+t>
+File: figs/capacity_electricity-eps-converted-to.pdf Graphic file (type pdf)
+ <use figs/capacity_electricity-eps-converted-to.pdf>
+Package pdftex.def Info: figs/capacity_electricity-eps-converted-to.pdf used on
+ input line 27.
+(pdftex.def)             Requested size: 76.80176pt x 67.30634pt.
+Package epstopdf Info: Source file: <figs/payback_electricity.eps>
+(epstopdf)                    date: 2016-05-29 17:12:58
+(epstopdf)                    size: 16552 bytes
+(epstopdf)             Output file: <figs/payback_electricity-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2016-06-30 08:13:14
+(epstopdf)                    size: 3433 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/payback_electricity-e
+ps-converted-to.pdf figs/payback_electricity.eps>
+(epstopdf)             \includegraphics on input line 27.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/payback_electricity-eps-converted-to.pdf, id=67, 268.00125pt x 238.8925pt
+>
+File: figs/payback_electricity-eps-converted-to.pdf Graphic file (type pdf)
+ <use figs/payback_electricity-eps-converted-to.pdf>
+Package pdftex.def Info: figs/payback_electricity-eps-converted-to.pdf used on 
+input line 27.
+(pdftex.def)             Requested size: 76.80176pt x 68.45688pt.
+Package epstopdf Info: Source file: <figs/capacity_gas.eps>
+(epstopdf)                    date: 2016-05-29 17:13:00
+(epstopdf)                    size: 19322 bytes
+(epstopdf)             Output file: <figs/capacity_gas-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-30 08:13:16
+(epstopdf)                    size: 3807 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/capacity_gas-eps-conv
+erted-to.pdf figs/capacity_gas.eps>
+(epstopdf)             \includegraphics on input line 46.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/capacity_gas-eps-converted-to.pdf, id=68, 272.01625pt x 234.8775pt>
+File: figs/capacity_gas-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/capacity_gas-eps-converted-to.pdf>
+Package pdftex.def Info: figs/capacity_gas-eps-converted-to.pdf used on input l
+ine 46.
+(pdftex.def)             Requested size: 76.80176pt x 66.31717pt.
+Package epstopdf Info: Source file: <figs/payback_gas.eps>
+(epstopdf)                    date: 2016-05-29 17:13:02
+(epstopdf)                    size: 15980 bytes
+(epstopdf)             Output file: <figs/payback_gas-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-30 08:13:18
+(epstopdf)                    size: 3358 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/payback_gas-eps-conve
+rted-to.pdf figs/payback_gas.eps>
+(epstopdf)             \includegraphics on input line 46.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/payback_gas-eps-converted-to.pdf, id=69, 268.00125pt x 234.8775pt>
+File: figs/payback_gas-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/payback_gas-eps-converted-to.pdf>
+Package pdftex.def Info: figs/payback_gas-eps-converted-to.pdf used on input li
+ne 46.
+(pdftex.def)             Requested size: 76.80176pt x 67.30634pt.
+ [7 <./figs/nz-grid_year-eps-converted-to.pdf> <./figs/nz-supply_year-eps-conve
+rted-to.pdf> <./figs/nz-demand_year-eps-converted-to.pdf> <./figs/nz-int_year-e
+ps-converted-to.pdf> <./figs/cost_comparison-eps-converted-to.pdf> <./figs/emis
+sion_comparison-eps-converted-to.pdf> <./figs/cost_err_comparison-eps-converted
+-to.pdf> <./figs/emission_err_comparison-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figs/capacity_PV.eps>
+(epstopdf)                    date: 2016-06-30 08:09:24
+(epstopdf)                    size: 18046 bytes
+(epstopdf)             Output file: <figs/capacity_PV-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-30 08:13:18
+(epstopdf)                    size: 3773 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/capacity_PV-eps-conve
+rted-to.pdf figs/capacity_PV.eps>
+(epstopdf)             \includegraphics on input line 53.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/capacity_PV-eps-converted-to.pdf, id=114, 269.005pt x 234.8775pt>
+File: figs/capacity_PV-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/capacity_PV-eps-converted-to.pdf>
+Package pdftex.def Info: figs/capacity_PV-eps-converted-to.pdf used on input li
+ne 53.
+(pdftex.def)             Requested size: 76.80176pt x 67.05905pt.
+Package epstopdf Info: Source file: <figs/payback_PV.eps>
+(epstopdf)                    date: 2016-06-30 08:09:24
+(epstopdf)                    size: 15637 bytes
+(epstopdf)             Output file: <figs/payback_PV-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-30 08:13:20
+(epstopdf)                    size: 3337 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/payback_PV-eps-conver
+ted-to.pdf figs/payback_PV.eps>
+(epstopdf)             \includegraphics on input line 57.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/payback_PV-eps-converted-to.pdf, id=115, 264.99pt x 234.8775pt>
+File: figs/payback_PV-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/payback_PV-eps-converted-to.pdf>
+Package pdftex.def Info: figs/payback_PV-eps-converted-to.pdf used on input lin
+e 57.
+(pdftex.def)             Requested size: 76.80176pt x 68.0733pt.
+Package epstopdf Info: Source file: <figs/capacity_PMR.eps>
+(epstopdf)                    date: 2016-05-29 17:13:10
+(epstopdf)                    size: 19032 bytes
+(epstopdf)             Output file: <figs/capacity_PMR-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-30 08:13:20
+(epstopdf)                    size: 3792 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/capacity_PMR-eps-conv
+erted-to.pdf figs/capacity_PMR.eps>
+(epstopdf)             \includegraphics on input line 89.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/capacity_PMR-eps-converted-to.pdf, id=116, 269.005pt x 234.8775pt>
+File: figs/capacity_PMR-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/capacity_PMR-eps-converted-to.pdf>
+Package pdftex.def Info: figs/capacity_PMR-eps-converted-to.pdf used on input l
+ine 89.
+(pdftex.def)             Requested size: 76.80176pt x 67.05905pt.
+Package epstopdf Info: Source file: <figs/cost_PMR.eps>
+(epstopdf)                    date: 2016-05-29 17:13:10
+(epstopdf)                    size: 86531 bytes
+(epstopdf)             Output file: <figs/cost_PMR-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-30 08:13:22
+(epstopdf)                    size: 4812 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/cost_PMR-eps-converte
+d-to.pdf figs/cost_PMR.eps>
+(epstopdf)             \includegraphics on input line 89.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/cost_PMR-eps-converted-to.pdf, id=117, 261.97874pt x 249.93375pt>
+File: figs/cost_PMR-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/cost_PMR-eps-converted-to.pdf>
+Package pdftex.def Info: figs/cost_PMR-eps-converted-to.pdf used on input line 
+89.
+(pdftex.def)             Requested size: 76.80176pt x 73.26836pt.
+Package epstopdf Info: Source file: <figs/capacity_batch.eps>
+(epstopdf)                    date: 2016-05-29 17:13:06
+(epstopdf)                    size: 19306 bytes
+(epstopdf)             Output file: <figs/capacity_batch-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-30 08:13:24
+(epstopdf)                    size: 3828 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/capacity_batch-eps-co
+nverted-to.pdf figs/capacity_batch.eps>
+(epstopdf)             \includegraphics on input line 107.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/capacity_batch-eps-converted-to.pdf, id=118, 268.00125pt x 234.8775pt>
+File: figs/capacity_batch-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/capacity_batch-eps-converted-to.pdf>
+Package pdftex.def Info: figs/capacity_batch-eps-converted-to.pdf used on input
+ line 107.
+(pdftex.def)             Requested size: 76.80176pt x 67.30634pt.
+Package epstopdf Info: Source file: <figs/cost_batch.eps>
+(epstopdf)                    date: 2016-05-29 17:13:08
+(epstopdf)                    size: 87205 bytes
+(epstopdf)             Output file: <figs/cost_batch-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-30 08:13:24
+(epstopdf)                    size: 4852 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/cost_batch-eps-conver
+ted-to.pdf figs/cost_batch.eps>
+(epstopdf)             \includegraphics on input line 107.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/cost_batch-eps-converted-to.pdf, id=119, 253.94875pt x 249.93375pt>
+File: figs/cost_batch-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/cost_batch-eps-converted-to.pdf>
+Package pdftex.def Info: figs/cost_batch-eps-converted-to.pdf used on input lin
+e 107.
+(pdftex.def)             Requested size: 76.80176pt x 75.58707pt.
+ [8 <./figs/capacity_electricity-eps-converted-to.pdf> <./figs/payback_electric
+ity-eps-converted-to.pdf> <./figs/capacity_gas-eps-converted-to.pdf> <./figs/pa
+yback_gas-eps-converted-to.pdf> <./figs/capacity_PV-eps-converted-to.pdf> <./fi
+gs/payback_PV-eps-converted-to.pdf> <./figs/capacity_PMR-eps-converted-to.pdf> 
+<./figs/cost_PMR-eps-converted-to.pdf>])) (./scripts/demand_response.tex
+! Undefined control sequence.
+l.9 	\tbl
+         {Demand response rates.\label{tbl:DR_rates}}{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (71.46767pt too wide) in paragraph at lines 9--21
+[]\T1/aer/m/n/9 Demand re-sponse rates.[] [] 
+ []
+
+
+Overfull \hbox (4.05424pt too wide) in paragraph at lines 29--30
+[]\T1/aer/m/n/9 The rates $\OML/cmm/m/it/9 p[]$ \T1/aer/m/n/9 in whole-sale mar
+-kets are typ-i-cally cheaper
+ []
+
+Package epstopdf Info: Source file: <figs/nz-int_NoDR.eps>
+(epstopdf)                    date: 2016-05-29 17:12:06
+(epstopdf)                    size: 35674 bytes
+(epstopdf)             Output file: <figs/nz-int_NoDR-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-30 08:13:26
+(epstopdf)                    size: 4245 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/nz-int_NoDR-eps-conve
+rted-to.pdf figs/nz-int_NoDR.eps>
+(epstopdf)             \includegraphics on input line 67.
+Package epstopdf Info: Output file is already uptodate.
+<figs/nz-int_NoDR-eps-converted-to.pdf, id=151, 262.9825pt x 234.8775pt>
+File: figs/nz-int_NoDR-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/nz-int_NoDR-eps-converted-to.pdf>
+Package pdftex.def Info: figs/nz-int_NoDR-eps-converted-to.pdf used on input li
+ne 67.
+(pdftex.def)             Requested size: 76.80176pt x 68.59297pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]\T1/aer/m/n/9 (a) With-out DR
+ []
+
+
+Underfull \hbox (badness 3965) in paragraph at lines 67--67
+\T1/aer/m/n/9 pro-grams. Data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+\T1/aer/m/n/9 cen-ters only use
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+\T1/aer/m/n/9 the base prices
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+\T1/aer/m/n/9 of elec-tric-ity are
+ []
+
+Package epstopdf Info: Source file: <figs/nz-int_tou.eps>
+(epstopdf)                    date: 2016-05-29 17:12:08
+(epstopdf)                    size: 42056 bytes
+(epstopdf)             Output file: <figs/nz-int_tou-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-30 08:13:28
+(epstopdf)                    size: 4930 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/nz-int_tou-eps-conver
+ted-to.pdf figs/nz-int_tou.eps>
+(epstopdf)             \includegraphics on input line 67.
+Package epstopdf Info: Output file is already uptodate.
+<figs/nz-int_tou-eps-converted-to.pdf, id=152, 262.9825pt x 234.8775pt>
+File: figs/nz-int_tou-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/nz-int_tou-eps-converted-to.pdf>
+Package pdftex.def Info: figs/nz-int_tou-eps-converted-to.pdf used on input lin
+e 67.
+(pdftex.def)             Requested size: 76.80176pt x 68.59297pt.
+
+Underfull \hbox (badness 6741) in paragraph at lines 67--67
+[]\T1/aer/m/n/9 (b) Time of Use
+ []
+
+Package epstopdf Info: Source file: <figs/nz-int_cpp.eps>
+(epstopdf)                    date: 2016-05-29 17:12:10
+(epstopdf)                    size: 36314 bytes
+(epstopdf)             Output file: <figs/nz-int_cpp-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-30 08:13:30
+(epstopdf)                    size: 4502 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/nz-int_cpp-eps-conver
+ted-to.pdf figs/nz-int_cpp.eps>
+(epstopdf)             \includegraphics on input line 67.
+Package epstopdf Info: Output file is already uptodate.
+<figs/nz-int_cpp-eps-converted-to.pdf, id=153, 262.9825pt x 235.88126pt>
+File: figs/nz-int_cpp-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/nz-int_cpp-eps-converted-to.pdf>
+Package pdftex.def Info: figs/nz-int_cpp-eps-converted-to.pdf used on input lin
+e 67.
+(pdftex.def)             Requested size: 76.80176pt x 68.88611pt.
+
+Underfull \hbox (badness 1412) in paragraph at lines 67--67
+\T1/aer/m/n/9 ters pre-fer to use
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 67--67
+\T1/aer/m/n/9 PV gen-er-a-tion in
+ []
+
+Package epstopdf Info: Source file: <figs/nz-int_ibr.eps>
+(epstopdf)                    date: 2016-05-29 17:12:12
+(epstopdf)                    size: 37289 bytes
+(epstopdf)             Output file: <figs/nz-int_ibr-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-30 08:13:34
+(epstopdf)                    size: 4520 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/nz-int_ibr-eps-conver
+ted-to.pdf figs/nz-int_ibr.eps>
+(epstopdf)             \includegraphics on input line 67.
+Package epstopdf Info: Output file is already uptodate.
+<figs/nz-int_ibr-eps-converted-to.pdf, id=154, 262.9825pt x 234.8775pt>
+File: figs/nz-int_ibr-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/nz-int_ibr-eps-converted-to.pdf>
+Package pdftex.def Info: figs/nz-int_ibr-eps-converted-to.pdf used on input lin
+e 67.
+(pdftex.def)             Requested size: 76.80176pt x 68.59297pt.
+Package epstopdf Info: Source file: <figs/nz-int_sr.eps>
+(epstopdf)                    date: 2016-05-29 17:12:16
+(epstopdf)                    size: 36684 bytes
+(epstopdf)             Output file: <figs/nz-int_sr-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-30 08:13:36
+(epstopdf)                    size: 4522 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/nz-int_sr-eps-convert
+ed-to.pdf figs/nz-int_sr.eps>
+(epstopdf)             \includegraphics on input line 67.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/nz-int_sr-eps-converted-to.pdf, id=155, 263.98625pt x 235.88126pt>
+File: figs/nz-int_sr-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/nz-int_sr-eps-converted-to.pdf>
+Package pdftex.def Info: figs/nz-int_sr-eps-converted-to.pdf used on input line
+ 67.
+(pdftex.def)             Requested size: 76.80176pt x 68.62335pt.
+
+Underfull \hbox (badness 5475) in paragraph at lines 67--67
+\T1/aer/m/n/9 power dur-ing SR
+ []
+
+Package epstopdf Info: Source file: <figs/nz-int_BiMarkets.eps>
+(epstopdf)                    date: 2016-05-29 17:12:18
+(epstopdf)                    size: 36526 bytes
+(epstopdf)             Output file: <figs/nz-int_BiMarkets-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2016-06-30 08:13:40
+(epstopdf)                    size: 4130 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/nz-int_BiMarkets-eps-
+converted-to.pdf figs/nz-int_BiMarkets.eps>
+(epstopdf)             \includegraphics on input line 67.
+Package epstopdf Info: Output file is already uptodate.
+<figs/nz-int_BiMarkets-eps-converted-to.pdf, id=156, 262.9825pt x 234.8775pt>
+File: figs/nz-int_BiMarkets-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/nz-int_BiMarkets-eps-converted-to.pdf>
+Package pdftex.def Info: figs/nz-int_BiMarkets-eps-converted-to.pdf used on inp
+ut line 67.
+(pdftex.def)             Requested size: 76.80176pt x 68.59297pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]\T1/aer/m/n/9 (f) Whole-sale
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+\T1/aer/m/n/9 (WS). The data
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 67--67
+\T1/aer/m/n/9 cen-ter flat-tens the
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 67--67
+\T1/aer/m/n/9 power de-mand to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+\T1/aer/m/n/9 fol-low the pre-
+ []
+
+Package epstopdf Info: Source file: <figs/capacity_int_DR.eps>
+(epstopdf)                    date: 2016-05-30 13:42:02
+(epstopdf)                    size: 21219 bytes
+(epstopdf)             Output file: <figs/capacity_int_DR-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2016-06-30 08:13:40
+(epstopdf)                    size: 3631 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/capacity_int_DR-eps-c
+onverted-to.pdf figs/capacity_int_DR.eps>
+(epstopdf)             \includegraphics on input line 67.
+Package epstopdf Info: Output file is already uptodate.
+<figs/capacity_int_DR-eps-converted-to.pdf, id=157, 262.9825pt x 227.85126pt>
+File: figs/capacity_int_DR-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/capacity_int_DR-eps-converted-to.pdf>
+Package pdftex.def Info: figs/capacity_int_DR-eps-converted-to.pdf used on inpu
+t line 67.
+(pdftex.def)             Requested size: 76.80176pt x 66.54105pt.
+Package epstopdf Info: Source file: <figs/cost_int_DR.eps>
+(epstopdf)                    date: 2016-05-30 13:42:04
+(epstopdf)                    size: 87390 bytes
+(epstopdf)             Output file: <figs/cost_int_DR-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-30 08:13:42
+(epstopdf)                    size: 4766 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/cost_int_DR-eps-conve
+rted-to.pdf figs/cost_int_DR.eps>
+(epstopdf)             \includegraphics on input line 67.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/cost_int_DR-eps-converted-to.pdf, id=158, 262.9825pt x 245.91875pt>
+File: figs/cost_int_DR-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/cost_int_DR-eps-converted-to.pdf>
+Package pdftex.def Info: figs/cost_int_DR-eps-converted-to.pdf used on input li
+ne 67.
+(pdftex.def)             Requested size: 76.80176pt x 71.81743pt.
+Package epstopdf Info: Source file: <figs/emission_int_DR.eps>
+(epstopdf)                    date: 2016-05-30 13:42:04
+(epstopdf)                    size: 83296 bytes
+(epstopdf)             Output file: <figs/emission_int_DR-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2016-06-30 08:13:44
+(epstopdf)                    size: 4569 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/emission_int_DR-eps-c
+onverted-to.pdf figs/emission_int_DR.eps>
+(epstopdf)             \includegraphics on input line 67.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/emission_int_DR-eps-converted-to.pdf, id=159, 262.9825pt x 245.91875pt>
+File: figs/emission_int_DR-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/emission_int_DR-eps-converted-to.pdf>
+Package pdftex.def Info: figs/emission_int_DR-eps-converted-to.pdf used on inpu
+t line 67.
+(pdftex.def)             Requested size: 76.80176pt x 71.81743pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9 <./figs/capacity_batch-eps-converted-to.pdf> <./figs/cost_batch-eps-converte
+d-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./scripts/conclusion.tex [10 <./figs/nz-int_NoDR-eps-converted-to.pdf> <./figs
+/nz-int_tou-eps-converted-to.pdf> <./figs/nz-int_cpp-eps-converted-to.pdf> <./f
+igs/nz-int_ibr-eps-converted-to.pdf> <./figs/nz-int_sr-eps-converted-to.pdf> <.
+/figs/nz-int_BiMarkets-eps-converted-to.pdf> <./figs/capacity_int_DR-eps-conver
+ted-to.pdf> <./figs/cost_int_DR-eps-converted-to.pdf> <./figs/emission_int_DR-e
+ps-converted-to.pdf>])
+Overfull \hbox (1.21384pt too wide) in paragraph at lines 10--212
+\T1/aer/m/n/9 Part of this work was done when Zhen-hua Liu vis-ited Hewlett
+ []
+
+(./manuscript.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Overfull \hbox (18.10892pt too wide) in paragraph at lines 179--184
+\T1/aer/m/n/9 TXU-[]Energy-[]O^^[ers-[]Deep-[]Nighttime-[]Discounts-[]Electrici
+ty$, 
+ []
+
+
+Overfull \hbox (15.00014pt too wide) in paragraph at lines 207--212
+\T1/aer/m/n/9 cisco-[]projects-[]data-[]center-[]cloud-[]tra^^^c-[]to-[]triple-
+[]by-[]2017/$, 
+ []
+
+) [12
+
+] (./manuscript.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 14102 strings out of 493029
+ 269967 string characters out of 6136234
+ 322952 words of memory out of 5000000
+ 17172 multiletter control sequences out of 15000+600000
+ 72848 words of font info for 107 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,16n,54p,1422b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
+mes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on manuscript.pdf (12 pages, 381718 bytes).
+PDF statistics:
+ 277 PDF objects out of 1000 (max. 8388607)
+ 203 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+

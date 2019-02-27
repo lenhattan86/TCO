@@ -1,0 +1,170 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: TOMPECS.aux
+The style file: ACM-Reference-Format-Journals.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: bib/DCDR.bib
+I was expecting a `,' or a `}'---line 22 of file bib/DCDR.bib
+ :   
+ :   booktitle={Proc. of IGCC},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 85 of file bib/DCDR.bib
+ : 
+ : %, http://www.nist.gov/public\_affairs/releases/\\upload/smartgrid\_interoperability\_final.pdf
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `)'---line 193 of file bib/DCDR.bib
+ :  
+ :  URL="http://http://www.cs.caltech.edu/~zliu2/SDClong.pdf",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 542 of file bib/DCDR.bib
+ : 
+ : @inproceedings{verma2009server,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 591 of file bib/DCDR.bib
+ :  
+ :  %, http://www.nist.gov/public\_affairs/releases/\\upload/smartgrid\_interoperability\_final.pdf
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 712 of file bib/DCDR.bib
+ : @inproceedings{ren2012carbon
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 741 of file bib/DCDR.bib
+ : @inproceedings{zhang2012dynamic
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 829 of file bib/DCDR.bib
+ : @misc{eiaElectricityPrices
+ :                           ,
+I'm skipping whatever remains of this entry
+Warning--string name "howpublished" is undefined
+--line 849 of file bib/DCDR.bib
+I was expecting a `,' or a `}'---line 849 of file bib/DCDR.bib
+ : url = howpublished 
+ :                    ="\url{http://www.zdnet.com/article/cisco-projects-data-center-cloud-traffic-to-triple-by-2017/}"
+I'm skipping whatever remains of this entry
+Repeated entry---line 893 of file bib/DCDR.bib
+ : @inproceedings{arlitt2012towards
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 932 of file bib/DCDR.bib
+ : @inproceedings{qureshi2009cutting
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 952 of file bib/DCDR.bib
+ : @article{liu2013data
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1115 of file bib/DCDR.bib
+ : @inproceedings{ren2012carbon
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1149 of file bib/DCDR.bib
+ : @techreport{hpEcoPODs
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--no key, author in hpEcoPODs
+Warning--no author, editor, organization, or key in hpEcoPODs
+Warning--to sort, need author or key in hpEcoPODs
+Warning--no key, author in gasPrice
+Warning--no author, editor, organization, or key in gasPrice
+Warning--to sort, need author or key in gasPrice
+Warning--no key, author in electricityRateTexas
+Warning--no author, editor, organization, or key in electricityRateTexas
+Warning--to sort, need author or key in electricityRateTexas
+Warning--no key, author in electricityRateTexas
+Warning--no key, author in electricityRateTexas
+Warning--no key, author in gasPrice
+Warning--no key, author in gasPrice
+Warning--no key, author in hpEcoPODs
+Warning--no key, author in hpEcoPODs
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--no key, author in hpEcoPODs
+Warning--no author, editor, organization, or key in hpEcoPODs
+Warning--empty author in hpEcoPODs
+Warning--no key, author in electricityRateTexas
+Warning--no author, editor, organization, or key in electricityRateTexas
+Warning--no key, author in gasPrice
+Warning--no author, editor, organization, or key in gasPrice
+Warning--empty publisher in arlitt2012towards
+Warning--empty address in arlitt2012towards
+Warning--empty address in garg2011sla
+Warning--empty publisher in lin2011online
+Warning--empty address in lin2011online
+Warning--can't use both volume and number fields in liu2012renewable
+Warning--empty publisher in liu2012renewable
+Warning--empty address in liu2012renewable
+Warning--empty publisher in liu2011greening
+Warning--empty address in liu2011greening
+Warning--empty publisher in liu2014pricing
+Warning--empty address in liu2014pricing
+Warning--empty publisher in pakbaznia2009minimizing
+Warning--empty address in pakbaznia2009minimizing
+Warning--empty publisher in qureshi2009cutting
+Warning--empty address in qureshi2009cutting
+Warning--page numbers missing in both pages and numpages fields in qureshi2009cutting
+Warning--empty publisher in ren2012carbon
+Warning--empty address in ren2012carbon
+Warning--no number and no volume in revelle2009cap
+Warning--page numbers missing in both pages and numpages fields in revelle2009cap
+Warning--empty institution in sharmashrink
+Warning--empty publisher in urgaonkar2005analytical
+Warning--empty address in urgaonkar2005analytical
+Warning--page numbers missing in both pages and numpages fields in urgaonkar2005analytical
+Warning--empty publisher in urgaonkar2011optimal
+Warning--empty address in urgaonkar2011optimal
+Warning--page numbers missing in both pages and numpages fields in urgaonkar2011optimal
+Warning--empty publisher in wierman2014opportunities
+Warning--empty address in wierman2014opportunities
+Warning--empty publisher in zhang2010greente
+Warning--empty address in zhang2010greente
+Warning--empty publisher in zhang2012dynamic
+Warning--empty address in zhang2012dynamic
+Warning--page numbers missing in both pages and numpages fields in zhang2012dynamic
+You've used 39 entries,
+            5290 wiz_defined-function locations,
+            1431 strings with 21892 characters,
+and the built_in function-call counts, 41281 in all, are:
+= -- 4964
+> -- 1727
+< -- 1
++ -- 528
+- -- 876
+* -- 2909
+:= -- 4639
+add.period$ -- 190
+call.type$ -- 39
+change.case$ -- 285
+chr.to.int$ -- 39
+cite$ -- 108
+duplicate$ -- 3057
+empty$ -- 2195
+format.name$ -- 668
+if$ -- 9437
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 110
+newline$ -- 345
+num.names$ -- 288
+pop$ -- 1303
+preamble$ -- 1
+purify$ -- 478
+quote$ -- 0
+skip$ -- 843
+stack$ -- 0
+substring$ -- 3784
+swap$ -- 281
+text.length$ -- 615
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 546
+warning$ -- 57
+while$ -- 260
+width$ -- 0
+write$ -- 707
+(There were 14 error messages)
